@@ -6,7 +6,7 @@ const IntroContainer = () => {
   return (
     <div className='intro_container'>
         <Intro/>
-        <img src={"/src/assets/Img/portfolio1.jpg"} alt="" />
+        <img src={"./src/assets/Img/portfolio1.jpg"} alt="" />
     </div>
   )
 }
