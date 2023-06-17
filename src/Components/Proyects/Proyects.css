@@ -1,0 +1,29 @@
+.titulo_proyectos{
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline 2px;
+}
+
+.proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta_proyectos{
+    width: 400px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.tarjeta_proyectos a{
+    font-size: 24px;
+}
+
+.tarjeta_proyectos p{
+    font-size: 18px;
+}
+
+.tarjeta_proyectos img {
+    width: 400px;
+}

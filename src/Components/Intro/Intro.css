@@ -1,0 +1,43 @@
+.intro_desc {
+    width: 500px;
+    text-align: center;
+  }
+  
+  .intro_desc p {
+    line-height: 2;
+  }
+  
+  .intro_desc h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .intro_desc p {
+    font-size: 22px;
+    color: #666666;
+    margin-bottom: 40px;
+  }
+  
+  .intro_desc mark {
+    background-color: #D8D8D8;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  .intro_desc button {
+    padding: 12px 24px;
+    margin: 10px;
+    background-color: #e1e2e4;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .intro_desc button:hover {
+    background-color: #b1c5e6;
+  }
