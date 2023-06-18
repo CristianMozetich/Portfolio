@@ -4,7 +4,7 @@ import './Proyects.css'
 
 const Proyects = () => {
   return (
-    <>
+    <div>
     <h1 className='titulo_proyectos'>Proyects</h1>
     <div  className="proyectos">
       {
@@ -18,7 +18,7 @@ const Proyects = () => {
           </div>
         ))}
     </div>
-    </>
+    </div>
   )
 }
 
