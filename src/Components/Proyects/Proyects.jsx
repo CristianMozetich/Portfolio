@@ -1,6 +1,7 @@
 import React from 'react'
-import { proyectos } from '../../../asyncmock'
 import './Proyects.css'
+import { proyectos } from '../../../asyncmock'
+
 
 const Proyects = () => {
   return (
