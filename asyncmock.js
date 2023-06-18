@@ -5,6 +5,8 @@ export const proyectos = [ {
     name: "Magenta",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://cristianmozetich.github.io/Magenta/",
+    year: "2022",
+    tech: "Html Css Scss Bootstrap",
 },
 {
     id: 2,
@@ -12,6 +14,8 @@ export const proyectos = [ {
     name: "House Of Music",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://cristianmozetich.github.io/ProyectoFinal-Mozetich/",
+    year: "2023",
+    tech: "Html Css JavaScript Bootstrap",
 },
 {
     id: 3,
@@ -19,6 +23,8 @@ export const proyectos = [ {
     name: "Art & Wine",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://43200-react.netlify.app/",
+    year: "2023",
+    tech: "Html Css React Js Firebase Bootstrap",
 },
 {
     id: 4,
@@ -26,5 +32,7 @@ export const proyectos = [ {
     name: "Tic Tac Toe ",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://superlative-raindrop-91350e.netlify.app/",
+    year: "2023",
+    tech: "Html Css React Js",
 },
 ];
