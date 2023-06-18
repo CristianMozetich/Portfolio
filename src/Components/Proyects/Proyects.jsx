@@ -6,7 +6,7 @@ import { proyectos } from '../../../asyncmock'
 const Proyects = () => {
   return (
     <>
-    <h1 className='titulo_proyectos'>Proyects</h1>
+    <h1 id='titulo_proyectos'>Proyects</h1>
     <div  className="proyectos">
       {
       proyectos.map((proyecto) => (
