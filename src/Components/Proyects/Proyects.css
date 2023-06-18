@@ -1,11 +1,11 @@
-#titulo_proyectos{
+.titulo_proyectos {
     text-align: left;
     font-size: 36px;
-    text-decoration: underline 2px;
+    text-decoration: underline;
     color: #474747;
     letter-spacing: 0.125rem;
-}
-
+  }
+  
 .proyectos{
     display: flex;
     flex-wrap: wrap;
