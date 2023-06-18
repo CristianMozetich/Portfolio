@@ -12,9 +12,9 @@ const Proyects = () => {
           <div className='tarjeta_proyectos' key={proyecto.id}>
             <img src={proyecto.img} alt={proyecto.name} />
             <a href={proyecto.web} target='_blank'><h3>{proyecto.name}</h3></a>
-            <p>{proyecto.year}</p>
-            <p>{proyecto.desc}</p>
-            <p>{proyecto.tech}</p>
+            <p className='year'>{proyecto.year}</p>
+            <p className='desc'>{proyecto.desc}</p>
+            <p className='tech'><mark>{proyecto.tech}</mark></p>
           </div>
         ))}
     </div>

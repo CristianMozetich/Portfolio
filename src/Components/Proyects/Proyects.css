@@ -1,5 +1,5 @@
 .titulo_proyectos{
-    text-align: center;
+    text-align: left;
     font-size: 36px;
     text-decoration: underline 2px;
     color: #474747;
@@ -32,13 +32,28 @@
     text-align: start;
 }
 
-.tarjeta_proyectos p{
+.desc{
     font-size: 1rem;
     text-align: left;
     color: #474747;
     letter-spacing: 0.125rem;
     width: calc(100% + 0.125rem);
     line-height: 1.5;
+}
+
+.year{
+    font-size: 0.75em;
+    text-align: left;
+    color: #474747;
+    letter-spacing: 0.125rem;
+}
+
+.tech{
+    text-align: left;
+}
+
+.tech mark{
+    background-color: #D8D8D8;
 }
 
 .tarjeta_proyectos img {
