@@ -24,7 +24,7 @@ export const proyectos = [ {
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://43200-react.netlify.app/",
     year: "2023",
-    tech: "Html Css React Js Firebase Bootstrap",
+    tech: "Html Css React Js Vite Firebase Bootstrap",
 },
 {
     id: 4,
@@ -33,6 +33,6 @@ export const proyectos = [ {
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://superlative-raindrop-91350e.netlify.app/",
     year: "2023",
-    tech: "Html Css React Js",
+    tech: "Html Css React Js Vite",
 },
 ];
