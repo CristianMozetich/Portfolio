@@ -14,7 +14,7 @@ const Proyects = () => {
             <a href={proyecto.web} target='_blank'><h3>{proyecto.name}</h3></a>
             <p className='year'>{proyecto.year}</p>
             <p className='desc'>{proyecto.desc}</p>
-            <p className='tech'><mark>{proyecto.tech}</mark></p>
+            <p className='tech'>{proyecto.tech}</p>
           </div>
         ))}
     </div>
