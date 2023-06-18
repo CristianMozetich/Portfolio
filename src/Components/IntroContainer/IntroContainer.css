@@ -10,3 +10,9 @@
     width: 400px;
     border-radius: 5px;
 }
+
+@media (max-width: 700px){
+    .intro_container{
+        margin-top: 10px;
+    }
+};
