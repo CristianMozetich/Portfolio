@@ -2,6 +2,8 @@
     text-align: center;
     font-size: 36px;
     text-decoration: underline 2px;
+    color: #474747;
+    letter-spacing: 0.125rem;
 }
 
 .proyectos{
@@ -18,10 +20,25 @@
 
 .tarjeta_proyectos a{
     font-size: 24px;
+    color: #474747;
+
+}
+
+.tarjeta_proyectos a:hover{
+    text-decoration: none;
+}
+
+.tarjeta_proyectos a h3{
+    text-align: start;
 }
 
 .tarjeta_proyectos p{
-    font-size: 18px;
+    font-size: 1rem;
+    text-align: left;
+    color: #474747;
+    letter-spacing: 0.125rem;
+    width: calc(100% + 0.125rem);
+    line-height: 1.5;
 }
 
 .tarjeta_proyectos img {
