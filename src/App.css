@@ -6,6 +6,44 @@ body {
   overflow: hidden;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+.btn:hover {
+  color: #555;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn .fa-circle-half-stroke {
+  margin-right: 0.5rem;
+}
+
+.modo-oscuro .btn {
+  color: #fff;
+}
+
+.modo-oscuro .btn:hover {
+  color: #ccc;
+}
+
+
 .modo-claro {
   background-color: #F7F7F7;
   color: #474747;

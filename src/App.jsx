@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className={`App ${modoOscuro ? 'modo-oscuro' : 'modo-claro'}`}>
-      <button onClick={handleClick}>Cambiar Modo</button>
+      <button className='btn' onClick={handleClick}><i className="fa-solid fa-circle-half-stroke"></i>Dark/Light</button>
       <IntroContainer />
       <Proyects />
     </div>
