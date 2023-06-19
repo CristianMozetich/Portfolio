@@ -5,7 +5,6 @@
     text-align: left;
     font-size: 36px;
     text-decoration: underline;
-    color: #474747;
     letter-spacing: 0.125rem;
   }
   
@@ -23,8 +22,7 @@
 
 .tarjeta_proyectos a{
     font-size: 24px;
-    color: #474747;
-
+    color: #db4545;
 }
 
 .tarjeta_proyectos a:hover{
@@ -38,7 +36,6 @@
 .desc{
     font-size: 1rem;
     text-align: left;
-    color: #474747;
     letter-spacing: 0.125rem;
     width: calc(100% + 0.125rem);
     line-height: 1.5;
@@ -47,7 +44,6 @@
 .year{
     font-size: 0.75em;
     text-align: left;
-    color: #474747;
     letter-spacing: 0.125rem;
 }
 

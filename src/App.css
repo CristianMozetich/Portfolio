@@ -1,6 +1,19 @@
+body {
+  margin: 0%;
+}
+
 #root {
   overflow: hidden;
 }
 
+.modo-claro {
+  background-color: #F7F7F7;
+  color: #474747;
+  /* Otros estilos para el modo claro */
+}
 
-
+.modo-oscuro {
+  background-color: #1f2124;
+  color: #fff;
+  /* Otros estilos para el modo oscuro */
+}

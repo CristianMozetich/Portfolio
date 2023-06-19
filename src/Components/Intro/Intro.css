@@ -9,10 +9,8 @@
   }
   
   .titulo {
-    color: #474747;
     font-size: 3.25em;
     margin-bottom: 20px;
-    color: #333333;
     letter-spacing: 0.125rem;
     line-height: 1.125;
     font-weight: 700;
@@ -21,7 +19,6 @@
   .intro_desc p {
     font-size: 1rem;
     letter-spacing: 0.125rem;
-    color: #666666;
     margin-bottom: 40px;
     line-height: 1.875;
     font-weight: 400;
