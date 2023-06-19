@@ -6,7 +6,6 @@ body {
   overflow: hidden;
 }
 
-
 .btn {
   background-color: transparent;
   border: none;
@@ -16,7 +15,7 @@ body {
   align-items: center;
   color: #474747;
   margin: auto;
-  padding: 50px;
+  padding: 20px;
 }
 
 .btn:hover {
