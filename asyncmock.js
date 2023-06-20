@@ -12,7 +12,6 @@ export const proyectos = [ {
     id: 2,
     img: "./assets/Img/houseofmusic.png",
     name: "House Of Music",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://cristianmozetich.github.io/ProyectoFinal-Mozetich/",
     year: "2023",
     tech: "Html - Css - JavaScript - Bootstrap",

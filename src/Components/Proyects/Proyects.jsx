@@ -16,7 +16,6 @@ const Proyects = () => {
             <img src={proyecto.img} alt={proyecto.name} />
             <a href={proyecto.web} target='_blank'><h3>{proyecto.name}</h3></a>
             <p className='year'>{proyecto.year}</p>
-            <p className='desc'>{proyecto.desc}</p>
             <p className='tech'>{proyecto.tech}</p>
           </div>
         ))}
