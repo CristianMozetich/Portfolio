@@ -4,6 +4,7 @@
     justify-content: center;
     margin-top: 100px;
     margin: 10px;
+    margin-bottom: 100px;
 }
 
 .intro_container img{
@@ -16,5 +17,6 @@
 @media (max-width: 700px){
     .intro_container{
         margin-top: 10px;
+        margin-bottom: 100px;
     }
 };
