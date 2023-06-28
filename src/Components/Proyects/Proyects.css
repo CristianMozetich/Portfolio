@@ -1,5 +1,5 @@
 .contenedor_titulo{
-    margin: 10px;
+    margin-top: 100px;
 }
 .titulo_proyectos {
     text-align: center;
@@ -13,6 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 10px;
 }
 
 .tarjeta_proyectos{
@@ -56,5 +57,7 @@
 }
 
 .tarjeta_proyectos img {
-    width: 400px;
+    width: 100%;
+    height: auto;
+    
 }
