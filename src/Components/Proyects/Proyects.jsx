@@ -13,7 +13,7 @@ const Proyects = () => {
       {
       proyectos.map((proyecto) => (
           <div className='tarjeta_proyectos' key={proyecto.id}>
-            <img src={proyecto.img} alt={proyecto.name} />
+            <a href={proyecto.web} target='_blank'><img src={proyecto.img} alt={proyecto.name}/></a>
             <a href={proyecto.web} target='_blank'><h3>{proyecto.name}</h3></a>
             <p className='year'>{proyecto.year}</p>
             <p className='tech'>{proyecto.tech}</p>

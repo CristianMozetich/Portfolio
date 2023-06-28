@@ -2,7 +2,7 @@
     margin: 10px;
 }
 .titulo_proyectos {
-    text-align: left;
+    text-align: center;
     font-size: 36px;
     text-decoration: underline;
     letter-spacing: 0.125rem;
@@ -19,6 +19,8 @@
     width: 400px;
     margin: 40px;
     padding: 20px;
+    border: solid 0.01rem;
+    border-radius: 10px;
 }
 
 .tarjeta_proyectos a{
