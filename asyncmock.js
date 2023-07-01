@@ -1,6 +1,16 @@
 
-export const proyectos = [ {
+export const proyectos = [
+{
     id: 1,
+    img: "./assets/Img/imc.jpg",
+    name: "Índice De Masa Corporal",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
+    web: "https://indice-m-corp.netlify.app/",
+    year: "2023",
+    tech: "Html - Css - Scss - React Js",
+},
+{
+    id: 2,
     img: "./assets/Img/magenta.png",
     name: "Magenta",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
@@ -9,7 +19,7 @@ export const proyectos = [ {
     tech: "Html - Css - Scss - Bootstrap",
 },
 {
-    id: 2,
+    id: 3,
     img: "./assets/Img/houseofmusic.png",
     name: "House Of Music",
     web: "https://cristianmozetich.github.io/ProyectoFinal-Mozetich/",
@@ -17,7 +27,7 @@ export const proyectos = [ {
     tech: "Html - Css - JavaScript - Bootstrap",
 },
 {
-    id: 3,
+    id: 4,
     img: "./assets/Img/art&wine.png",
     name: "Art & Wine",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
@@ -26,7 +36,7 @@ export const proyectos = [ {
     tech: "Html - Css - React Js - Vite - Firebase - Bootstrap",
 },
 {
-    id: 4,
+    id: 5,
     img: "./assets/Img/tateti.png",
     name: "Tic Tac Toe ",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
