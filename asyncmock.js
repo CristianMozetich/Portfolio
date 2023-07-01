@@ -7,7 +7,7 @@ export const proyectos = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://indice-m-corp.netlify.app/",
     year: "2023",
-    tech: "Html - Css - Scss - React Js",
+    tech: "Html - Css - React Js",
 },
 {
     id: 2,
