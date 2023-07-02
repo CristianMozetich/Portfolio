@@ -3,7 +3,7 @@ export const proyectos = [
 {
     id: 1,
     img: "./assets/Img/imc.jpg",
-    name: "Índice De Masa Corporal",
+    name: "IMC",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://indice-m-corp.netlify.app/",
     year: "2023",
