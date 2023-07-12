@@ -31,7 +31,7 @@ export const proyectos = [
     id: 4,
     img: "./assets/Img/houseofmusic.png",
     name: "House Of Music",
-    web: "https://cristianmozetich.github.io/ProyectoFinal-Mozetich/",
+    web: "https://house-of-music.netlify.app/",
     year: "2023",
     tech: "Html - Css - JavaScript - Bootstrap",
 },
