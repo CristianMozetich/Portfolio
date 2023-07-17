@@ -2,7 +2,7 @@
 export const proyectos = [
 {
     id: 1,
-    img: "./assets/Img/imc.jpg",
+    img: "./public/assets/Img/imc2.jpg",
     name: "IMC",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://indice-m-corp.netlify.app/",
@@ -11,7 +11,7 @@ export const proyectos = [
 },
 {
     id: 2,
-    img: "./assets/Img/art&wine.png",
+    img: "./assets/Img/art_wine.jpg",
     name: "Art & Wine",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://art-wine.netlify.app/",
@@ -20,7 +20,7 @@ export const proyectos = [
 },
 {
     id: 3,
-    img: "./assets/Img/tateti.png",
+    img: "./public/assets/Img/tateti.jpg",
     name: "Tic Tac Toe ",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://ta-te-ti-91.netlify.app/",
@@ -29,7 +29,7 @@ export const proyectos = [
 },
 {
     id: 4,
-    img: "./assets/Img/houseofmusic.png",
+    img: "./assets/Img/music.jpg",
     name: "House Of Music",
     web: "https://house-of-music.netlify.app/",
     year: "2023",
@@ -37,7 +37,7 @@ export const proyectos = [
 },
 {
     id: 5,
-    img: "./assets/Img/magenta.png",
+    img: "./assets/Img/magenta.jpg",
     name: "Magenta",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://cristianmozetich.github.io/Magenta/",
