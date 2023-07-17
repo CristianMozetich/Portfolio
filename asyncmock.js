@@ -2,7 +2,7 @@
 export const proyectos = [
 {
     id: 1,
-    img: "./public/assets/Img/imc2.jpg",
+    img: "./assets/Img/imc2.jpg",
     name: "IMC",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://indice-m-corp.netlify.app/",
@@ -20,7 +20,7 @@ export const proyectos = [
 },
 {
     id: 3,
-    img: "./public/assets/Img/tateti.jpg",
+    img: "./assets/Img/tateti.jpg",
     name: "Tic Tac Toe ",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://ta-te-ti-91.netlify.app/",
