@@ -39,7 +39,6 @@
 }
 
 .tarjeta_proyectos a{
-    font-size: 18px;
     color: #0f623d;
 }
 
@@ -48,7 +47,7 @@
 }
 
 .desc{
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: left;
     letter-spacing: 0.125rem;
     width: calc(100% + 0.125rem);
