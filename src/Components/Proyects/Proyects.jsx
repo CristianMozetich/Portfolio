@@ -13,10 +13,12 @@ const Proyects = () => {
       {
       proyectos.map((proyecto) => (
           <div className='tarjeta_proyectos' key={proyecto.id}>
-            <a href={proyecto.web} target='_blank'><img src={proyecto.img} alt={proyecto.name}/></a>
-            <a href={proyecto.web} target='_blank'><h3>{proyecto.name}</h3></a>
-            <p className='year'>{proyecto.year}</p>
+            <div className='contenedor_proyectos'>
+              <a href={proyecto.web} target='_blank'><h2>{proyecto.name}</h2></a>
+            </div>
+            <a href={proyecto.web} target='_blank'><p>{proyecto.desc}</p></a>
             <p className='tech'>{proyecto.tech}</p>
+            <p className='year'>{proyecto.year}</p>
           </div>
         ))}
     </div>

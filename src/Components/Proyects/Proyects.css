@@ -25,19 +25,30 @@
     width: 400px;
     margin: 0.70rem;
     border-bottom: solid 0.01rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor_proyectos{
+    width: 350px;
+    height: 180px;
+    background: linear-gradient(90deg, #509cc855 0%, #f7f5f6 20%, #f7f5f6  80%, #509cc855 100%);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .tarjeta_proyectos a{
-    font-size: 24px;
+    font-size: 18px;
     color: #4a45db;
 }
 
 .tarjeta_proyectos a:hover{
     text-decoration: none;
-}
-
-.tarjeta_proyectos a h3{
-    text-align: start;
 }
 
 .desc{
@@ -57,9 +68,4 @@
 .tech{
     text-align: center;
 
-}
-
-.tarjeta_proyectos img {
-    width: 100%;
-    height: 250px;    
 }
