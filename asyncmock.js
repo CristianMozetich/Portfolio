@@ -37,7 +37,7 @@ export const proyectos = [
 },
 {
     id: 5,
-    img: "./assets/Img/magenta.jpg",
+    img: "./public/assets/Img/magenta.jpg",
     name: "Magenta",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.",
     web: "https://cristianmozetich.github.io/Magenta/",
