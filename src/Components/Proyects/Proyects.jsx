@@ -16,7 +16,7 @@ const Proyects = () => {
             <div className='contenedor_proyectos'>
               <a href={proyecto.web} target='_blank'><h2>{proyecto.name}</h2></a>
             </div>
-            <a href={proyecto.web} target='_blank'><p>{proyecto.desc}</p></a>
+            <a href={proyecto.web} target='_blank'><p className='desc'>{proyecto.desc}</p></a>
             <p className='tech'>{proyecto.tech}</p>
             <p className='year'>{proyecto.year}</p>
           </div>
