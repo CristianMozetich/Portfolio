@@ -14,7 +14,7 @@ const Proyects = () => {
       proyectos.map((proyecto) => (
           <div className='tarjeta_proyectos' key={proyecto.id}>
             <div className='contenedor_proyectos'>
-              <a href={proyecto.web} target='_blank'><h1>{proyecto.name}</h1></a>
+              <a href={proyecto.web} target='_blank'><h2>{proyecto.name}</h2></a>
             </div>
             <a href={proyecto.web} target='_blank'><p className='desc'>{proyecto.desc}</p></a>
             <p className='tech'>{proyecto.tech}</p>
