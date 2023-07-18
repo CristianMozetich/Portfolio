@@ -40,6 +40,7 @@
 
 .tarjeta_proyectos a{
     color: #0f623d;
+    text-decoration: none;
 }
 
 .tarjeta_proyectos a:hover{
