@@ -39,6 +39,10 @@
 
 }
 
+.contenedor_proyectos h2{
+    color: #474747;
+}
+
 .tarjeta_proyectos a{
     color: #178956;
     text-decoration: none;
