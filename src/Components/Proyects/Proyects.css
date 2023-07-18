@@ -30,7 +30,7 @@
 .contenedor_proyectos{
     width: 350px;
     height: 180px;
-    background: linear-gradient(90deg, #509cc855 0%, #f7f5f6 20%, #f7f5f6  80%, #509cc855 100%);
+    background: linear-gradient(90deg, #50c88c55 0%, #f7f5f6 20%, #f7f5f6  80%, #50c88c55 100%);
     display: flex;
     text-align: center;
     align-items: center;
