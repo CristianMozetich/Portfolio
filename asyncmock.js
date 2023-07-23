@@ -11,7 +11,7 @@ export const proyectos = [
 {
     id: 2,
     name: "Art & Wine",
-    desc: "App que simula una tienda de vinos, puedes agregar al carrito y comprar.",
+    desc: "App que simula una tienda de vinos. Puedes agregar al carrito y comprar.",
     web: "https://art-wine.netlify.app/",
     year: "2023",
     tech: "Html - Css - React Js - Vite - Firebase - Bootstrap",
@@ -27,7 +27,7 @@ export const proyectos = [
 {
     id: 4,
     name: "House Of Music",
-    desc: "Tienda de instrumentos músicales, puedes agregar al carrito y comprar.",
+    desc: "Tienda de instrumentos músicales. Puedes agregar al carrito y comprar.",
     web: "https://house-of-music.netlify.app/",
     year: "2023",
     tech: "Html - Css - JavaScript - Bootstrap",
@@ -35,7 +35,7 @@ export const proyectos = [
 {
     id: 5,
     name: "Magenta",
-    desc: "Página web de un comercio dedicado a la fabricación, venta de alianzas y relojes.",
+    desc: "Página web de comercio dedicado a la fabricación, venta de alianzas y relojes.",
     web: "https://cristianmozetich.github.io/Magenta/",
     year: "2022",
     tech: "Html - Css - Scss - Bootstrap",
