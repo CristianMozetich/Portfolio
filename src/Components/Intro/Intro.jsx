@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <div className='intro_desc'>
         <h1 className='titulo'>Hola, me llamo Cristian &#x1F44B;</h1>
-        <p>Soy <mark>desarrollador web</mark> con sede en Dublín. Aquí puedes encontrar todos los enlaces relevantes y una selección de mis últimos proyectos.</p>
+        <p>Soy <mark>desarrollador frontend</mark> con sede en Dublín. Aquí puedes encontrar todos los enlaces relevantes y una selección de mis últimos proyectos.</p>
         <li>
             <a href="https://github.com/CristianMozetich" target='_blank'><i className="fa-brands fa-github"></i>Git Hub</a>
             <a href="https://www.linkedin.com/in/cristian-mozetich-135086256/" target='_blank'><i className="fa-brands fa-linkedin-in"></i>LinkedIn</a>
