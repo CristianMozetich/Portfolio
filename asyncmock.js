@@ -3,7 +3,7 @@ export const proyectos = [
 {
     id: 1,
     name: "IMC",
-    desc: "App para calcular tu índice de masa corporal (IMC) ingresando tu peso y altura.",
+    desc: "Aplicación para calcular tu índice de masa corporal (IMC) ingresando tu peso y altura.",
     web: "https://indice-m-corp.netlify.app/",
     year: "2023",
     tech: "Html - Css - React Js",
@@ -11,7 +11,7 @@ export const proyectos = [
 {
     id: 2,
     name: "Art & Wine",
-    desc: "App que simula una tienda de vinos. Puedes agregar al carrito y comprar.",
+    desc: "Tienda de vinos.",
     web: "https://art-wine.netlify.app/",
     year: "2023",
     tech: "Html - Css - React Js - Vite - Firebase - Bootstrap",
@@ -27,7 +27,7 @@ export const proyectos = [
 {
     id: 4,
     name: "House Of Music",
-    desc: "Tienda de instrumentos músicales. Puedes agregar al carrito y comprar.",
+    desc: "Tienda de instrumentos músicales.",
     web: "https://house-of-music.netlify.app/",
     year: "2023",
     tech: "Html - Css - JavaScript - Bootstrap",
