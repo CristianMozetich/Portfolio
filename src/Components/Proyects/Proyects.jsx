@@ -7,10 +7,10 @@ import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nex
 const Proyects = () => {
   return (
     <>
-    <div className='contenedor_titulo'>
+    <div>
       <h1 className='titulo_proyectos '>Proyectos</h1>
     </div>
-    <div  className="proyectos">
+    <div  className="flex flex-wrap justify-center m-auto gap-16">
       {
       proyectos.map((proyecto) => (
           <Card className='tarjeta_proyectos' key={proyecto.id}>
