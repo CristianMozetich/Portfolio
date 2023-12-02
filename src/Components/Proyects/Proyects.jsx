@@ -14,7 +14,7 @@ const Proyects = () => {
       {
       proyectos.map((proyecto) => (
           <Card className='tarjeta_proyectos' key={proyecto.id}>
-            <CardHeader className='contenedor_proyectos'>
+            <CardHeader>
               <a href={proyecto.web} target='_blank'><h2>{proyecto.name}</h2></a>
             </CardHeader>
             <Divider/>

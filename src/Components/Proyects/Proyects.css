@@ -22,52 +22,12 @@
 }
 
 .tarjeta_proyectos{
-    width: 450px;
+    width: 400px;
     margin: 0.70rem;
-    border-bottom: solid 0.01rem;
-}
-
-.contenedor_proyectos{
-    width: 350px;
-    height: 180px;
-    background: linear-gradient(90deg, #50c88c31 0%, #F7F7F7 20%, #F7F7F7  80%, #50c88c31 100%);
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-
-}
-
-.contenedor_proyectos h2{
-    color: #474747;
-}
-
-.tarjeta_proyectos a{
-    color: #178956;
-    text-decoration: none;
-}
-
-.tarjeta_proyectos a:hover{
-    text-decoration: none;
-}
-
-.desc{
-    font-size: 1.0rem;
-    text-align: left;
-    letter-spacing: 0.125rem;
-    width: calc(100% + 0.125rem);
-    line-height: 1.5;
-
 }
 
 .year{
     font-size: 0.75em;
     text-align: left;
     letter-spacing: 0.125rem;
-}
-
-.tech{
-    text-align: center;
-
 }
