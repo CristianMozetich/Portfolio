@@ -7,10 +7,6 @@ import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nex
 const Proyects = () => {
   return (
     <>
-    <div>
-      <h1 className='titulo_proyectos '>Proyectos</h1>
-    </div>
-    <div  className="contenedor_proyectos">
       {
       proyectos.map((proyecto) => (
           <Card className='tarjeta_proyectos' key={proyecto.id}>
@@ -32,7 +28,6 @@ const Proyects = () => {
             </CardFooter>
           </Card>
         ))}
-    </div>
     </>
   )
 }

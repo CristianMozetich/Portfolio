@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import IntroContainer from './Components/IntroContainer/IntroContainer';
-import Proyects from './Components/Proyects/Proyects';
+import ContenedorProyectos from './Components/ContenedorProyectos/ContenedorProyectos';
 
 function App() {
   const [modoOscuro, setModoOscuro] = useState(false);
@@ -22,7 +22,7 @@ function App() {
     <div className={`App ${modoOscuro ? 'modo-oscuro' : 'modo-claro'}`}>
       <button className='btn' onClick={handleClick}><i className="fa-solid fa-circle-half-stroke"></i>Dark/Light</button>
       <IntroContainer />
-      <Proyects />
+      <ContenedorProyectos />
     </div>
   );
 }
