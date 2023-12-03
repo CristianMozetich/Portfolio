@@ -1,6 +1,7 @@
 import React from 'react'
-import Proyects from '../Proyects/Proyects'
 import './ContenedorProyectos.css'
+import Proyects from '../Proyects/Proyects'
+
 
 const ContenedorProyectos = () => {
   return (
