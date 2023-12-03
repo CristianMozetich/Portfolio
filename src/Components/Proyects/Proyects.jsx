@@ -6,7 +6,9 @@ import './Proyects.css'
 const Proyects = () => {
   return (
     <>
-    <h2 className='titulo_proyectos'>Proyectos</h2>
+    <div className='titulo_proyectos'>
+      <h2>Proyectos</h2>
+    </div>
     <div className='contenedor_proyectos'>
       {
       proyectos.map((proyecto) => (

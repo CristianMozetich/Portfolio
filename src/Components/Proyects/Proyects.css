@@ -1,4 +1,5 @@
-  .titulo_proyectos{
+  .titulo_proyectos h2{
+    width: 1300px;
     align-items: center;
     text-align: center;
     margin: auto;
