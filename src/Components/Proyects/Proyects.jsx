@@ -10,12 +10,12 @@ const Proyects = () => {
     <div>
       <h1 className='titulo_proyectos '>Proyectos</h1>
     </div>
-    <div  className="flex flex-wrap justify-center m-auto gap-16">
+    <div  className="contenedor_proyectos flex flex-wrap justify-center">
       {
       proyectos.map((proyecto) => (
           <Card className='tarjeta_proyectos' key={proyecto.id}>
             <CardHeader>
-              <a href={proyecto.web} target='_blank'><h2>{proyecto.name}</h2></a>
+              <a href={proyecto.web} target='_blank'><h2 className='title'>{proyecto.name}</h2></a>
             </CardHeader>
             <Divider/>
             <CardBody>
