@@ -1,7 +1,7 @@
 import React from 'react'
-import './Proyects.css'
 import { proyectos } from '../../../asyncmock'
 import {Card, CardHeader, CardBody, CardFooter, Divider} from "@nextui-org/react";
+import './Proyects.css'
 
 
 const Proyects = () => {
@@ -9,7 +9,7 @@ const Proyects = () => {
     <>
       {
       proyectos.map((proyecto) => (
-          <Card id='tarjeta_proyectos' key={proyecto.id}>
+          <Card className='tarjeta_proyectos' key={proyecto.id}>
             <CardHeader>
               <a href={proyecto.web} target='_blank'><h2 className='title'>{proyecto.name}</h2></a>
             </CardHeader>
