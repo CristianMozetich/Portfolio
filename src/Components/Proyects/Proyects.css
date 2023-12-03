@@ -5,6 +5,9 @@
     line-height: 1.125;
     font-weight: 700;
     text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .contenedor_proyectos{
     max-width: 1300px;
