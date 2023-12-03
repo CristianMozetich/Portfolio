@@ -6,6 +6,10 @@ import './Proyects.css'
 
 const Proyects = () => {
   return (
+    <>
+    <div>
+      <h1 className='titulo_proyectos'>Proyectos</h1>
+    </div>
     <div className='contenedor_proyectos'>
       {
       proyectos.map((proyecto) => (
@@ -29,6 +33,7 @@ const Proyects = () => {
           </Card>
         ))}
     </div>
+    </>
   )
 }
 

@@ -1,3 +1,11 @@
+  .titulo_proyectos {
+    text-align: center;
+    font-size: 44px;
+    text-decoration: underline;
+    letter-spacing: 0.125rem;
+    margin: 10px;
+    padding-bottom: 25px;
+  }
   .contenedor_proyectos{
       max-width: 1300px;
       margin: auto;
