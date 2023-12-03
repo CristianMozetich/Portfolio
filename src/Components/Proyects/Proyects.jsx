@@ -10,7 +10,7 @@ const Proyects = () => {
     <div>
       <h1 className='titulo_proyectos '>Proyectos</h1>
     </div>
-    <div  className="contenedor_proyectos flex flex-wrap justify-center">
+    <div  className="contenedor_proyectos">
       {
       proyectos.map((proyecto) => (
           <Card className='tarjeta_proyectos' key={proyecto.id}>
