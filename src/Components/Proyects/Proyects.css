@@ -1,13 +1,9 @@
   .titulo_proyectos{
-    max-width: 1300px;
     text-align: center;
     margin: auto;
     letter-spacing: 0.125rem;
     line-height: 1.125;
     font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .contenedor_proyectos{
     max-width: 1300px;
