@@ -1,5 +1,6 @@
   .titulo_proyectos{
-    width: 300px;
+    max-width: 1300px;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
