@@ -1,7 +1,7 @@
 import React from 'react'
 import { proyectos } from '../../../asyncmock'
 import {Card, CardHeader, CardBody, CardFooter, Divider} from "@nextui-org/react";
-import './Proyects.css'
+import './Proyects.scss'
 
 
 const Proyects = () => {
