@@ -1,7 +1,7 @@
 .contenedor_proyectos{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
-    gap: 38px;
+    gap: 40px;
 }
 .titulo_proyectos {
     text-align: center;
