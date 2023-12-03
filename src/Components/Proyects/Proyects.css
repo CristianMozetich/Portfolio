@@ -1,12 +1,12 @@
-  .titulo_proyectos h2{
-    width: 1300px;
+  .titulo_proyectos{
+    width: 300px;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: auto;
     letter-spacing: 0.125rem;
     line-height: 1.125;
     font-weight: 700;
-    text-decoration: underline;
     margin-bottom: 80px;
   }
   .contenedor_proyectos{
