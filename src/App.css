@@ -42,10 +42,11 @@ body {
 .modo-claro {
   background-color: #F7F7F7;
   color: #474747;
+  margin: auto;
 }
 
 .modo-oscuro {
   background-color: #1f2124;
   color: #fff;
-
+  margin: auto;
 }
