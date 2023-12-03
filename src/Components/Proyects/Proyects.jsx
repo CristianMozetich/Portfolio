@@ -6,7 +6,7 @@ import './Proyects.css'
 
 const Proyects = () => {
   return (
-    <>
+    <div className='contenedor_proyectos'>
       {
       proyectos.map((proyecto) => (
           <Card className='tarjeta_proyectos' key={proyecto.id}>
@@ -28,7 +28,7 @@ const Proyects = () => {
             </CardFooter>
           </Card>
         ))}
-    </>
+    </div>
   )
 }
 

@@ -1,3 +1,12 @@
+  .contenedor_proyectos{
+      max-width: 1300px;
+      margin: auto;
+      gap: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
   .tarjeta_proyectos {
     width: 400px;
     margin: 20px;
