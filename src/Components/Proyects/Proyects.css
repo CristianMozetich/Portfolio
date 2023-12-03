@@ -1,7 +1,6 @@
   .titulo_proyectos{
-    max-width: 1300px;
     text-align: center;
-    margin: 100px;
+    margin: auto;
     letter-spacing: 0.125rem;
     line-height: 1.125;
     font-weight: 700;
