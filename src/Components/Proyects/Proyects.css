@@ -1,4 +1,4 @@
-.tarjeta_proyectos {
+  #tarjeta_proyectos {
     width: 400px;
     margin: 20px;
     padding: 15px;
@@ -8,12 +8,12 @@
     transition: transform 5s ease; /* Transición suave */
   }
 
-  .tarjeta_proyectos:hover{
+  #tarjeta_proyectos:hover{
     transform: scale(1.1);
     transition: 0.5s;
   }
   
-  .tarjeta_proyectos::before {
+  #tarjeta_proyectos::before {
     content: '';
     position: absolute;
     top: 0;
