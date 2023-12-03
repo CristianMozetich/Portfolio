@@ -15,7 +15,8 @@
 
 .tarjeta_proyectos {
     width: 400px;
-    margin: 0.70rem;
+    margin: 20px;
+    padding: 15px;
     position: relative;
     overflow: hidden;
     transform: scale(1); /* Establecer la escala inicial */
