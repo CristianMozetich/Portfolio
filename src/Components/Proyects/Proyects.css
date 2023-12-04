@@ -7,14 +7,14 @@
     margin: auto;
     letter-spacing: 0.125rem;
     line-height: 1.125;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     font-size: 36px;
   }
 
   .contenedor_proyectos{
     max-width: 1300px;
     margin: auto;
-    gap: 40px;
+    gap: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
