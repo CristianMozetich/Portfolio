@@ -32,7 +32,7 @@
     transform: scale(1); /* Establecer la escala inicial */
     transition: transform 5s ease; /* Transición suave */
   }
-  
+
   .tarjeta_proyectos::before {
     content: '';
     position: absolute;
@@ -40,7 +40,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, rgba(24, 141, 190, 0.674), #3333ff5e);
+    background: linear-gradient(45deg, rgba(24, 141, 190, 0.674), #233554);
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: -1;
@@ -71,6 +71,10 @@
     font-weight: bold;
     color: black;
     }
+
+.fa-regular{
+  color: black;
+  }
 
 .desc{
     color: black;

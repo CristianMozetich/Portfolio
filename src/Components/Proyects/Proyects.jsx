@@ -14,7 +14,10 @@ const Proyects = () => {
       proyectos.map((proyecto) => (
           <div className='tarjeta_proyectos' key={proyecto.id}>
             <div>
-              <a href={proyecto.web} target='_blank'><h2 className='title'>{proyecto.name}</h2></a>
+              <a href={proyecto.web} target='_blank'>
+              <i class="fa-regular fa-folder fa-xl"></i>
+              <h2 className='title'>{proyecto.name}</h2>
+              </a>
             </div>
 
             <div>
@@ -22,7 +25,7 @@ const Proyects = () => {
             </div>
 
             <div className='divider'>
-              <img src="" alt="" />
+            
             </div>
 
             <div>
