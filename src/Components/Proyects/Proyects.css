@@ -1,10 +1,6 @@
   .titulo_proyectos{
-    max-width: 1300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 400px;
     text-align: center;
-    margin: auto;
     letter-spacing: 0.125rem;
     line-height: 1.125;
     margin-bottom: 60px;
@@ -20,13 +16,13 @@
     justify-content: center;
   }
   .tarjeta_proyectos {
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     margin: 20px;
     padding: 15px;
     border-radius: 12px;
     background-color: white;
-    color: black;
+    color: #474747;
     position: relative;
     overflow: hidden;
     transform: scale(1); /* Establecer la escala inicial */
@@ -40,7 +36,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, rgba(24, 141, 190, 0.674), #233554);
+    background: linear-gradient(45deg, rgba(24, 190, 41, 0.542), #3333ff88);
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: -1;
@@ -69,25 +65,23 @@
   
 .title{
     font-weight: bold;
-    color: black;
+    color: #474747;
     }
 
 .fa-regular{
-  color: black;
+  color: orangered;
   }
 
 .desc{
-    color: black;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+  color: #474747;
+  line-height: 1.25rem;
 }
 
 .divider{
-  border-bottom: 1px black solid;
+  border-bottom: 1px #474747 solid;
 }
 
 .tech{
-    font-size: 0.875rem;
     font-size: 0.75em;
 }
 
