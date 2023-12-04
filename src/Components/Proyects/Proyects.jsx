@@ -21,6 +21,10 @@ const Proyects = () => {
               <a href={proyecto.web} target='_blank'><p className='desc'>{proyecto.desc}</p></a>
             </div>
 
+            <div className='divider'>
+              <img src="" alt="" />
+            </div>
+
             <div>
               <p className='tech'>{proyecto.tech}</p>
             </div>
