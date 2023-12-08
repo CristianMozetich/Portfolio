@@ -5,6 +5,9 @@
     justify-content: center;
     padding: 50px;
   }
+  .titulo_proyectos h1{
+    text-align: center;
+  }
   .contenedor_proyectos {
     max-width: 1300px;
     margin: auto;
