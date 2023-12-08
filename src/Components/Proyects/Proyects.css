@@ -1,6 +1,9 @@
   .titulo_proyectos{
-    text-align: center;
-    margin-bottom: 80px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
   }
   .contenedor_proyectos {
     max-width: 1300px;
