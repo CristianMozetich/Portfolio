@@ -39,12 +39,20 @@ body {
 }
 
 
-.modo-claro {
+.modo-claro{
   background-color: #F7F7F7;
   color: #474747;
 }
 
-.modo-oscuro {
+.modo-oscuro{
   background-color: #1f2124;
   color: #fff;
+}
+
+.modo-oscuro a{
+  color: white;
+}
+
+.modo-claro a{
+  color: #474747;
 }

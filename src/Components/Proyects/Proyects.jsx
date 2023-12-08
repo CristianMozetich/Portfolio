@@ -15,7 +15,7 @@ const Proyects = () => {
           <div className='tarjeta_proyectos' key={proyecto.id}>
             <div>
               <a href={proyecto.web} target='_blank'>
-              <i class="fa-regular fa-folder fa-xl"></i>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
               <h2 className='title'>{proyecto.name}</h2>
               </a>
             </div>

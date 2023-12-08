@@ -1,13 +1,16 @@
-  .titulo_proyectos{
-    width: 400px;
+  .titulo_proyectos {
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
     text-align: center;
     letter-spacing: 0.125rem;
     line-height: 1.125;
     margin-bottom: 60px;
     font-size: 20px;
+    display: flex;
   }
 
-  .contenedor_proyectos{
+  .contenedor_proyectos {
     max-width: 1300px;
     margin: auto;
     gap: 50px;
@@ -15,6 +18,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .tarjeta_proyectos {
     width: 350px;
     height: 250px;
@@ -22,71 +26,33 @@
     padding: 15px;
     border-radius: 12px;
     background-color: white;
-    color: #474747;
     position: relative;
     overflow: hidden;
-    transform: scale(1); /* Establecer la escala inicial */
-    transition: transform 5s ease; /* Transición suave */
+    background-image: linear-gradient(45deg, rgba(24, 190, 41, 0.686), #3333ff9f);
+    ;
   }
 
-  .tarjeta_proyectos::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, rgba(24, 190, 41, 0.542), #3333ff88);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: -1;
-    animation: gradientAnimation 10s infinite linear; /* Animación continua del gradiente */
-  }
-  
-  /* Animación continua del gradiente */
-  @keyframes gradientAnimation {
-    0% {
-      opacity: 0.7;
-      transform: scale(1);
-    }
-    50% {
-      opacity: 0;
-      transform: scale(1.05);
-    }
-    100% {
-      opacity: 0.7;
-      transform: scale(1);
-    }
-  }
-  
   a {
     text-decoration: none;
   }
-  
-.title{
-    font-weight: bold;
-    color: #474747;
-    }
 
-.fa-regular{
-  color: orangered;
+  .title {
+    font-weight: bold;
   }
 
-.desc{
-  color: #474747;
-  line-height: 1.25rem;
-}
+  .desc {
+    line-height: 1.25rem;
+  }
 
-.divider{
-  border-bottom: 1px #474747 solid;
-}
+  .divider {
+    border-bottom: 1px solid;
+  }
 
-.tech{
+  .tech {
     font-size: 0.75em;
-}
+  }
 
-.year{
+  .year {
     font-size: 0.75em;
     letter-spacing: 0.125rem;
-}
-
+  }
