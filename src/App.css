@@ -57,6 +57,14 @@ body {
   color: #fff;
 }
 
+.modo-navy .tarjeta_proyectos a:hover{
+  color: #64ffda;
+}
+
 .modo-light .tarjeta_proyectos{
   background: white;
+}
+
+.modo-navy .tarjeta_proyectos p:hover {
+  color: #64ffda;
 }
