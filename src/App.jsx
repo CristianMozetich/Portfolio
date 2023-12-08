@@ -4,23 +4,23 @@ import Proyects from './Components/Proyects/Proyects';
 import './App.css';
 
 function App() {
-  const [modoOscuro, setModoOscuro] = useState(false);
+  const [modoLight, setModoLight] = useState(false);
 
   useEffect(() => {
-    if (modoOscuro) {
-      document.body.classList.add('modo-oscuro');
+    if (modoLight) {
+      document.body.classList.add('modo-light');
     } else {
-      document.body.classList.remove('modo-oscuro');
+      document.body.classList.remove('modo-light');
     }
-  }, [modoOscuro]);
+  }, [modoLight]);
 
   const handleClick = () => {
-    setModoOscuro(!modoOscuro);
+    setModoLight(!modoLight);
   }
 
   return (
-    <div className={`App ${modoOscuro ? 'modo-oscuro' : 'modo-claro'}`}>
-      <button className='btn' onClick={handleClick}><i className="fa-solid fa-circle-half-stroke"></i>Dark/Light</button>
+    <div className={`App ${modoLight ? 'modo-light' : 'modo-navy'}`}>
+      <button className='btn' onClick={handleClick}><i className="fa-solid fa-circle-half-stroke"></i>Navy/Light</button>
       <IntroContainer />
       <Proyects />
     </div>

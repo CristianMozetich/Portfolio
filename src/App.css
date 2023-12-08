@@ -13,13 +13,13 @@ body {
   font-size: 1rem;
   display: flex;
   align-items: center;
-  color: #474747;
+  color: #fff;
   margin: auto;
   padding: 20px;
 }
 
 .btn:hover {
-  color: #555;
+  color: #64ffda;
 }
 
 .btn:focus {
@@ -30,29 +30,33 @@ body {
   margin-right: 0.5rem;
 }
 
-.modo-oscuro .btn {
+.modo-light .btn {
+  color: #474747;
+}
+
+.modo-light .btn:hover {
+  color: orangered;
+}
+
+
+.modo-navy{
+  background-color: #020c1b;
   color: #fff;
 }
 
-.modo-oscuro .btn:hover {
-  color: #ccc;
-}
-
-
-.modo-claro{
+.modo-light{
   background-color: #F7F7F7;
   color: #474747;
 }
 
-.modo-oscuro{
-  background-color: #1f2124;
+.modo-light a{
+  color: #474747;
+}
+
+.modo-navy a{
   color: #fff;
 }
 
-.modo-oscuro a{
-  color: white;
-}
-
-.modo-claro a{
-  color: #474747;
+.modo-light .tarjeta_proyectos{
+  background: white;
 }
