@@ -3,10 +3,10 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    padding: 50px;
   }
   .titulo_proyectos h1{
     text-align: center;
+    margin-bottom: 80px;
   }
   .contenedor_proyectos {
     max-width: 1300px;
