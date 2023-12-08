@@ -1,12 +1,7 @@
-  .titulo_proyectos {
-    margin: auto;
+  .titulo_proyectos{
     text-align: center;
-    letter-spacing: 0.125rem;
-    line-height: 1.125;
     margin-bottom: 80px;
-    font-size: 30px;
   }
-
   .contenedor_proyectos {
     max-width: 1300px;
     margin: auto;
