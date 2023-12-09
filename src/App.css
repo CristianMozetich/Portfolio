@@ -62,9 +62,18 @@ body {
 }
 
 .modo-light .tarjeta_proyectos{
-  background: white;
+  background-color: white;
+  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
 }
 
 .modo-navy .tarjeta_proyectos p:hover {
   color: #64ffda;
+}
+
+.modo-light .tarjeta_proyectos p:hover {
+  color: orangered;
+}
+
+.modo-light .tarjeta_proyectos a:hover{
+  color: orangered;
 }
