@@ -65,6 +65,10 @@ body {
   background-color: white;
 }
 
+.modo-light .desc_educar{
+  background-color: white;
+}
+
 .modo-navy .tarjeta_proyectos p:hover {
   color: #64ffda;
 }
