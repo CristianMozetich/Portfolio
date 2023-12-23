@@ -5,6 +5,7 @@ const EducarProyect = () => {
 
   return (
     <>
+    <div className='contenedor_educar'>
     <div className='proy_colaborativo'>
       <h1>Proyecto colaborativo</h1>
     </div>
@@ -20,6 +21,7 @@ const EducarProyect = () => {
             <p>Participé en el desarrollo de la interfaz de login para una App que simplifica la búsqueda de instituciones educativas en la provincia de Córdoba, 🇦🇷. Formó parte de un proyecto para NoCountry, con el objetivo de facilitar el acceso a información sobre centros educativos locales</p>
         </div>
     </article>
+    </div>
     </>
   )
 }
