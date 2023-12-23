@@ -84,3 +84,7 @@ body {
 .modo-light .LinksMedia .linea-vertical{
   background-color: orangered;
 }
+
+.modo-light .divider{
+  color: orangered;
+}
