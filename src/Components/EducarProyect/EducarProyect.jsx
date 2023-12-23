@@ -5,9 +5,6 @@ const EducarProyect = () => {
 
   return (
     <>
-    <div className='titulo_proyectos'>
-      <h1>Proyectos en equipo</h1>
-    </div>
     <div className='educar_container'>
         <a href='https://educ-ar-frontend.vercel.app/' target='_blank'>
         <img className='img_educar' src={"./assets/Img/Educar.png"} alt="EducarProyect" />

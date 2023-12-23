@@ -4,7 +4,10 @@
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1300px;
+    border-top: 1px solid white;
+    border-bottom: 1px white solid;
+    padding: 80px;
 }
 
 .img_educar{
