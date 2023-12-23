@@ -22,7 +22,7 @@
     padding: 20px;
     background-color: #233554;
     text-align: end;
-    width: 450px;
+    max-width: 450px;
     height: 200px;
 }
 
