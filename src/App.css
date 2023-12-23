@@ -53,11 +53,6 @@ body {
   color: #474747;
 }
 
-.modo-light .educar_container{
-  border-top: 1px solid orangered;
-  border-bottom: 1px orangered solid;
-}
-
 .modo-navy a{
   color: #fff;
 }
@@ -84,4 +79,8 @@ body {
 
 .modo-light .tarjeta_proyectos a:hover{
   color: orangered;
+}
+
+.modo-light .LinksMedia .linea-vertical{
+  background-color: orangered;
 }

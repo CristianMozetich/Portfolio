@@ -3,6 +3,7 @@ import IntroContainer from './Components/IntroContainer/IntroContainer';
 import Proyects from './Components/Proyects/Proyects';
 import './App.css';
 import EducarProyect from './Components/EducarProyect/EducarProyect';
+import LinksMedia from './Components/LinksMedia/LinksMedia';
 
 function App() {
   const [modoLight, setModoLight] = useState(false);
@@ -22,6 +23,7 @@ function App() {
   return (
     <div className={`App ${modoLight ? 'modo-light' : 'modo-navy'}`}>
       <button className='btn' onClick={handleClick}><i className="fa-solid fa-circle-half-stroke"></i>Navy/Light</button>
+      <LinksMedia/>
       <IntroContainer />
       <EducarProyect/>
       <Proyects />

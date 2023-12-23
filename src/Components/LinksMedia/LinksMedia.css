@@ -1,0 +1,28 @@
+.LinksMedia{
+    padding: 20px;
+    margin: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 26px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.LinksMedia .linea-vertical {
+    height: 100px; /* Altura deseada de la línea (ajusta según necesites) */
+    width: 1px; /* Ancho de la línea vertical */
+    background-color: #64ffda; /* Color de la línea vertical */
+    margin: 0 10px; /* Márgenes para separar la línea de los iconos */    
+}
+
+.LinksMedia a:hover{
+    color: #64ffda;
+}
+
+@media (max-width: 900px){
+    .LinksMedia{
+        display: none;
+    }
+}
