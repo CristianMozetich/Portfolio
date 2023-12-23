@@ -10,7 +10,7 @@ const EducarProyect = () => {
     </div>
     <div className='educar_container'>
         <a href='https://educ-ar-frontend.vercel.app/' target='_blank'>
-        <img className='img_educar' src="../../../public/assets/Img/Educar.png" alt="EducarProyect" />
+        <img className='img_educar' src={"./assets/Img/Educar.png"} alt="EducarProyect" />
         </a>
         <div className='desc_educar'>
         <a href='https://educ-ar-frontend.vercel.app/' target='_blank'>
