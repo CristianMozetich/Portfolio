@@ -12,7 +12,7 @@ const Proyects = () => {
     <div className='contenedor_proyectos'>
       {
       proyectos.map((proyecto) => (
-          <div className='tarjeta_proyectos' key={proyecto.id}>
+          <article className='tarjeta_proyectos' key={proyecto.id}>
             <div>
               <a href={proyecto.web} target='_blank'>
               <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -35,7 +35,7 @@ const Proyects = () => {
             <div>
               <p className='year'>{proyecto.year}</p>
             </div>
-          </div>
+          </article>
         ))}
     </div>
     </>

@@ -5,7 +5,10 @@ const EducarProyect = () => {
 
   return (
     <>
-    <div className='educar_container'>
+    <div className='proy_colaborativo'>
+      <h1>Proyecto colaborativo</h1>
+    </div>
+    <article className='educar_container'>
         <a href='https://educ-ar-frontend.vercel.app/' target='_blank'>
         <img className='img_educar' src={"./assets/Img/Educar.png"} alt="EducarProyect" />
         </a>
@@ -14,9 +17,9 @@ const EducarProyect = () => {
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
             <h2>Educar</h2>
         </a>
-            <p>Colaboré en el desarrollo de la interfaz de login para una App que simplifica la búsqueda de instituciones educativas en la provincia de Córdoba, 🇦🇷. Formó parte de un proyecto para NoCountry, con el objetivo de facilitar el acceso a información sobre centros educativos locales</p>
+            <p>Participé en el desarrollo de la interfaz de login para una App que simplifica la búsqueda de instituciones educativas en la provincia de Córdoba, 🇦🇷. Formó parte de un proyecto para NoCountry, con el objetivo de facilitar el acceso a información sobre centros educativos locales</p>
         </div>
-    </div>
+    </article>
     </>
   )
 }
