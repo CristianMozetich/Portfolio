@@ -9,7 +9,9 @@
 }
 
 .img_educar{
-    max-width: 600px;
+    width: 600px;
+    max-width: 100%;
+    height: auto;
     transition: 0.3s ease;
     border-radius: 5px;
 }
@@ -22,8 +24,8 @@
     padding: 20px;
     background-color: #233554;
     text-align: end;
-    max-width: 450px;
-    height: 200px;
+    width: 500px;
+    max-width: 100%;
 }
 
 .desc_educar h2{

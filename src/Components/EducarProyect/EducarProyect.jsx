@@ -6,7 +6,7 @@ const EducarProyect = () => {
   return (
     <>
     <div className='titulo_proyectos'>
-      <h1>Proyecto en equipo</h1>
+      <h1>Proyectos en equipo</h1>
     </div>
     <div className='educar_container'>
         <a href='https://educ-ar-frontend.vercel.app/' target='_blank'>
