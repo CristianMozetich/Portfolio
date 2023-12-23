@@ -9,7 +9,7 @@
 }
 
 .img_educar{
-    width: 700px;
+    width: 630px;
     max-width: 100%;
     height: auto;
     transition: 0.3s ease;
@@ -27,7 +27,7 @@
     width: 500px;
     max-width: 100%;
     letter-spacing: 0.125rem;
-    line-height: 1.275;
+    line-height: 1.375;
 }
 
 .desc_educar h2{
