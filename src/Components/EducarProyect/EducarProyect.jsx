@@ -14,7 +14,7 @@ const EducarProyect = () => {
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
             <h2>Educar</h2>
         </a>
-            <p>Participé de trabajo colaborativo donde contribuí en el desarrollo de la interfaz de login. Esta App está dedicada a simplificar la búsqueda de instituciones educativas en la provincia de Córdoba, 🇦🇷. Producido como parte de una simulación para NoCountry, esta iniciativa tiene como objetivo facilitar el acceso a información relevante sobre centros educativos en nuestra región.</p>
+            <p>Participé de un trabajo colaborativo donde contribuí en el desarrollo de la interfaz de login. Esta App está dedicada a simplificar la búsqueda de instituciones educativas en la provincia de Córdoba, 🇦🇷. Producido como parte de una simulación para NoCountry, esta iniciativa tiene como objetivo facilitar el acceso a información relevante sobre centros educativos en nuestra región.</p>
         </div>
     </div>
     </>
