@@ -1,17 +1,4 @@
-.App .proyectos_titulo{
-  max-width: 1300px;
-  height: 50px;
-  display: flex;
-  margin: auto;
-  justify-content: left;
-}
-.App .proyectos_titulo h2{
-  text-align: left;
-  letter-spacing: 0.125rem;
-  margin: 10px;
-  text-decoration: underline;
-  font-size: 26px;
-}
+
 .contenedor_proyectos {
   max-width: 1300px;
   margin: auto;
