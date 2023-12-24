@@ -1,59 +1,59 @@
-  .titulo_proyectos{
-    max-width: 1300px;
-    height: 50px;
-    margin: auto;
-    display: flex;
-    justify-content: left;
-  }
-  .titulo_proyectos h1{
-    text-align: left;
-    letter-spacing: 0.125rem;
-    margin: 10px;
-    text-decoration: underline;
-  }
-  .contenedor_proyectos {
-    max-width: 1300px;
-    margin: auto;
-    gap: 70px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.titulo_proyectos{
+  max-width: 1300px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+}
+.titulo_proyectos h1{
+  text-align: left;
+  letter-spacing: 0.125rem;
+  margin: 10px;
+  text-decoration: underline;
+}
+.contenedor_proyectos {
+  max-width: 1300px;
+  margin: auto;
+  gap: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  .tarjeta_proyectos {
-    width: 320px;
-    height: 250px;
-    margin: 20px;
-    padding: 15px;
-    border-radius: 12px;
-    background-color: white;
-    position: relative;
-    overflow: hidden;
-    background-color: #0a192f;
-  }
+.tarjeta_proyectos {
+  width: 320px;
+  height: 250px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  background-color: #0a192f;
+}
 
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 
-  .title {
-    font-weight: bold;
-  }
+.title {
+  font-weight: bold;
+}
 
-  .desc {
-    line-height: 1.25rem;
-  }
+.desc {
+  line-height: 1.25rem;
+}
 
-  .divider{
-    border-bottom: 1px solid;
-    color: #64ffda;
-  }
+.divider{
+  border-bottom: 1px solid;
+  color: #64ffda;
+}
 
-  .tech {
-    font-size: 0.75em;
-  }
+.tech {
+  font-size: 0.75em;
+}
 
-  .year {
-    font-size: 0.75em;
-    letter-spacing: 0.125rem;
-  }
+.year {
+  font-size: 0.75em;
+  letter-spacing: 0.125rem;
+}
