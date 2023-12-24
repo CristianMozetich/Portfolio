@@ -1,18 +1,15 @@
-.contenedor_educar{
-    height: 680px;
-}
 .proy_colaborativo{
-    max-width: 400px;
+    max-width: 1300px;
     height: 50px;
     display: flex;
     margin: auto;
-    justify-content: center;
-    padding: 30px;
+    justify-content: left;
 }
 .proy_colaborativo h1{
-    text-align: center;
-    margin-bottom: 80px;
+    text-align: left;
     letter-spacing: 0.125rem;
+    margin: 10px;
+    text-decoration: underline;
 }
 .educar_container{
     display: flex;
@@ -21,7 +18,7 @@
     flex-wrap: wrap;
     margin: auto;
     max-width: 1300px;
-    padding: 50px;
+    padding: 20px;
 }
 
 .img_educar{
