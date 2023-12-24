@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import IntroContainer from './Components/IntroContainer/IntroContainer';
 import Proyects from './Components/Proyects/Proyects';
-import './App.css';
 import EducarProyect from './Components/EducarProyect/EducarProyect';
 import LinksMedia from './Components/LinksMedia/LinksMedia';
+import './App.css';
 
 function App() {
   const [modoLight, setModoLight] = useState(false);
