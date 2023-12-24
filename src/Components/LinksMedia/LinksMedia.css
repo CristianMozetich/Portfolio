@@ -21,7 +21,7 @@
     color: #64ffda;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1400px){
     .LinksMedia{
         display: none;
     }
