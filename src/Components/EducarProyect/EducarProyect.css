@@ -4,6 +4,7 @@
     display: flex;
     margin: auto;
     justify-content: left;
+    padding: 10px;
 }
 .proy_colaborativo h1{
     text-align: left;
@@ -18,7 +19,7 @@
     flex-wrap: wrap;
     margin: auto;
     max-width: 1300px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .img_educar{
