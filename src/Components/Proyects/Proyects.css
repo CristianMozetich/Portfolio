@@ -5,7 +5,7 @@
   display: flex;
   justify-content: left;
 }
-.titulo_proyectos h1{
+.titulo_proyectos h2{
   text-align: left;
   letter-spacing: 0.125rem;
   margin: 10px;
