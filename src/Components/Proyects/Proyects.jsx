@@ -6,7 +6,7 @@ import './Proyects.css'
 const Proyects = () => {
   return (
     <>
-      <div className='proy_colaborativo'>
+      <div className='proyectos_titulo'>
         <h2>Proyectos</h2>
       </div>
       <div className='contenedor_proyectos'>
