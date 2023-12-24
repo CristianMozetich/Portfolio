@@ -1,11 +1,11 @@
-.titulo_proyectos{
+.proyectos{
   max-width: 1300px;
   height: 50px;
-  margin: auto;
   display: flex;
+  margin: auto;
   justify-content: left;
 }
-.titulo_proyectos h2{
+.proyectos h2{
   text-align: left;
   letter-spacing: 0.125rem;
   margin: 10px;
