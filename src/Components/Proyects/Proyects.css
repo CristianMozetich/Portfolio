@@ -1,4 +1,10 @@
-
+.proyectos_titulo{
+  max-width: 1300px;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  justify-content: left;
+}
 .proyectos_titulo .proy_titulo{
   text-align: left;
   letter-spacing: 0.125rem;
