@@ -4,6 +4,9 @@ import './EducarProyect.css'
 const EducarProyect = () => {
   return (
   <>
+    <div className='proy_colaborativo'>
+      <h1>Proyecto colaborativo</h1>
+    </div>
     <article className='educar_container'>
         <a href='https://educ-ar-frontend.vercel.app/' target='_blank'>
         <img className='img_educar' src={"./assets/Img/Educar.png"} alt="EducarProyect" />
