@@ -38,6 +38,10 @@
   position: relative;
   overflow: hidden;
   background-color: #0a192f;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 a {
@@ -64,4 +68,30 @@ a {
 .year {
   font-size: 0.75em;
   letter-spacing: 0.125rem;
+}
+
+.tarjeta_proyectos:hover {
+  transform: scale(1.05); /* Aumenta un poco el tamaño al hacer hover */
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra al hacer hover */
+}
+
+/* Oculta la descripción y detalles inicialmente */
+.tarjeta_proyectos .desc,
+.tarjeta_proyectos .divider,
+.tarjeta_proyectos .tech,
+.tarjeta_proyectos .year {
+  display: none;
+}
+
+.tarjeta_proyectos:hover .title{
+  display: none;
+}
+
+/* Muestra la descripción y detalles al hacer hover */
+.tarjeta_proyectos:hover .desc,
+.tarjeta_proyectos:hover .divider,
+.tarjeta_proyectos:hover .tech,
+.tarjeta_proyectos:hover .year {
+  display: block;
 }
