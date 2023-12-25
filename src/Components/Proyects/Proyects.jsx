@@ -6,8 +6,6 @@ import './Proyects.css'
 const Proyects = () => {
   return (
     <>
-      <div className='proyectos_titulo'>
-      </div>
       <h2 className='proy_titulo'>Proyectos</h2>
       <div className='contenedor_proyectos'>
         {
