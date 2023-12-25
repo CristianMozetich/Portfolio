@@ -1,14 +1,16 @@
 /*Reveer como heredan los estilos las clases*/
-.proy_titulo{
+.proyectos_titulo{
+  max-width: 1300px;
+  height: 50px;
+  margin: auto;
+}
+.proyectos_titulo .proy_titulo{
   text-align: left;
   letter-spacing: 0.125rem;
   margin: 10px;
   text-decoration: underline;
   font-size: 28px;
-  max-width: 1300px;
-  height: 50px;
   display: flex;
-  margin: auto;
   justify-content: left;
   padding: 10px;
 }
