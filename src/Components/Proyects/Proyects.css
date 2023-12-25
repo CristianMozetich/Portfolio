@@ -7,10 +7,9 @@
 .proyectos_titulo .proy_titulo{
   max-width: 1300px;
   height: 50px;
-  margin: auto;
+  margin: 10px auto;
   text-align: left;
   letter-spacing: 0.125rem;
-  margin: 10px;
   text-decoration: underline;
   font-size: 28px;
   display: flex;
