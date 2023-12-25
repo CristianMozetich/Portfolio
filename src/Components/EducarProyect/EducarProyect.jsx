@@ -16,7 +16,7 @@ const EducarProyect = () => {
             <i className="fa-solid fa-arrow-up-right-from-square"></i>
             <h2>Educar</h2>
         </a>
-            <p>Participé en el desarrollo de la interfaz de login para una App que simplifica la búsqueda de instituciones educativas en la provincia de Córdoba, 🇦🇷. Formó parte de un proyecto para NoCountry, con el objetivo de facilitar el acceso a información sobre centros educativos locales</p>
+            <p>Participé en el desarrollo de la interfaz de login para una App que simplifica la búsqueda de instituciones educativas en la provincia de Córdoba, 🇦🇷.</p>
         </div>
     </article>
   </>
