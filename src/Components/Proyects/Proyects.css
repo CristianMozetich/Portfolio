@@ -4,7 +4,7 @@
   height: 50px;
   margin: auto;
 }
-.proyectos_titulo .proy_titulo{
+.proyectos_titulo .proy_titulo h2{
   text-align: left;
   letter-spacing: 0.125rem;
   margin: 10px;
