@@ -1,5 +1,7 @@
 import React from 'react'
 import './Intro.css'
+import cvEs from '../../../public/assets/pdf/Mozetich_Cristian(es).pdf'
+import cvEn from '../../../public/assets/pdf/Mozetich_Cristian.pdf'
 
 const Intro = () => {
 
@@ -13,6 +15,8 @@ const Intro = () => {
             <a href="https://github.com/CristianMozetich" target='_blank'><i className="fa-brands fa-github"></i>Git Hub</a>
             <a href="https://www.linkedin.com/in/cristian-mozetich-135086256/" target='_blank'><i className="fa-brands fa-linkedin-in"></i>LinkedIn</a>
             <a href="mailto:cristianmozetich@gmail.com?subject=Asunto%20del%20correo&body=Contenido%20del%20correo%20electr%C3%B3nico"><i className="fa-regular fa-envelope"></i>Email</a>
+            <a href={cvEs} target='_blank'><i class="fa-regular fa-file"></i>Curriculum ES</a>
+            <a href={cvEn} target='_blank'><i class="fa-regular fa-file"></i>Curriculum EN</a>
         </li>
     </div>
   )
