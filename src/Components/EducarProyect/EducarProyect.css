@@ -44,6 +44,19 @@
     line-height: 1.375;
 }
 
+.tech_educar{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.tech_edu{
+    font-size: 0.75em;
+}
+.github_educar{
+    font-size: 22px;
+    padding: 5px;
+    margin: 5px;
+}
 .desc_educar h2{
     margin: 0px;
 }
