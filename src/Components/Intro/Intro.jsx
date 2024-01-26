@@ -11,19 +11,19 @@ const Intro = () => {
       {idioma === 'ingles' && (
         <>
           <h1 className='titulo'>Hi, I'm Cristian &#x1F44B;</h1>
-          <p>I am a <mark>full stack developer.</mark> Here you can find all the relevant links and a selection of my latest projects.</p>
+          <p>I am a <mark>full stack developer MERN.</mark> Here you can find all the relevant links and a selection of my latest projects.</p>
         </>
       )}
       {idioma === 'español' && (
         <>
           <h1 className='titulo'>Hola, soy Cristian &#x1F44B;</h1>
-          <p>Soy <mark>desarrollador full stack.</mark> Aquí puedes encontrar todos los enlaces relevantes y una selección de mis últimos proyectos.</p>
+          <p>Soy <mark>desarrollador full stack MERN.</mark> Aquí puedes encontrar todos los enlaces relevantes y una selección de mis últimos proyectos.</p>
         </>
       )}
       {idioma === 'italiano' && (
         <>
           <h1 className='titulo'>Ciao, sono Cristian &#x1F44B;</h1>
-          <p>Sono <mark>sviluppatore full stack.</mark> Qui puoi trovare tutti i link rilevanti e una selezione dei miei ultimi progetti.</p>
+          <p>Sono <mark>sviluppatore full stack MERN.</mark> Qui puoi trovare tutti i link rilevanti e una selezione dei miei ultimi progetti.</p>
         </>
       )}
         <li>
