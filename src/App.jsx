@@ -3,8 +3,8 @@ import IntroContainer from './Components/IntroContainer/IntroContainer';
 import Proyects from './Components/Proyects/Proyects';
 import EducarProyect from './Components/EducarProyect/EducarProyect';
 import LinksMedia from './Components/LinksMedia/LinksMedia';
-import './App.css';
 import { useIdioma } from './Context/idiomaContext';
+import './App.css';
 
 
 function App() {

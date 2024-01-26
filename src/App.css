@@ -7,9 +7,7 @@ body {
 }
 
 .lenguajes {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
+  display: none;
 }
 
 .lenguajes button {
@@ -116,4 +114,13 @@ body {
 
 .modo-light .divider{
   color: orangered;
+}
+
+@media (max-width: 1450px){
+  .lenguajes{
+    display: block;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
 }

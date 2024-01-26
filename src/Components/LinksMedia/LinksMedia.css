@@ -5,10 +5,27 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 26px;
+    font-size: 28px;
     bottom: 0px;
     z-index: 2;
 }
+
+.LinksMedia button {
+    width: 28px;
+    height: 26px;
+    border: 1px solid #64ffda;
+    border-radius: 18px;
+    background-color: #F7F7F7;
+    color: #020c1b;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+.LinksMedia button:hover {
+    background-color: #233554;
+    color: #F7F7F7;
+  }
 
 .LinksMedia .linea-vertical {
     height: 100px; /* Altura deseada de la línea (ajusta según necesites) */
@@ -20,6 +37,7 @@
 .LinksMedia a:hover{
     color: #64ffda;
 }
+
 
 @media (max-width: 1450px){
     .LinksMedia{
