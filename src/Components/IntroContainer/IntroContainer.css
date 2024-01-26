@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 30px;
+    margin: 50px;
+    margin-bottom: 100px;
 }
 
 .intro_container img{
