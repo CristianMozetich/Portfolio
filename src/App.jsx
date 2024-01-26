@@ -4,9 +4,13 @@ import Proyects from './Components/Proyects/Proyects';
 import EducarProyect from './Components/EducarProyect/EducarProyect';
 import LinksMedia from './Components/LinksMedia/LinksMedia';
 import './App.css';
+import { useIdioma } from './Context/idiomaContext';
+
 
 function App() {
   const [modoLight, setModoLight] = useState(false);
+  const { cambiarIdioma } = useIdioma()
+
 
   useEffect(() => {
     if (modoLight) {
@@ -23,6 +27,11 @@ function App() {
   return (
     <div className={`App ${modoLight ? 'modo-light' : 'modo-navy'}`}>
       <button className='btn' onClick={handleClick}><i className="fa-solid fa-circle-half-stroke"></i>Navy/Light</button>
+      <div className='lenguajes'>
+        <button onClick={()=> cambiarIdioma('ingles')}>En</button>
+        <button onClick={()=> cambiarIdioma('español')}>Es</button>
+        <button onClick={()=> cambiarIdioma('italiano')}>It</button>
+      </div>
       <LinksMedia/>
       <IntroContainer />
       <EducarProyect/>

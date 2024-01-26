@@ -2,10 +2,12 @@ import React from 'react'
 import Intro from '../Intro/Intro'
 import './IntroContainer.css'
 
+
 const IntroContainer = () => {
+
   return (
     <div className='intro_container'>
-        <Intro/>
+        <Intro  />
         <img src={"./assets/Img/portfolio1.jpg"} alt="" />
     </div>
   )

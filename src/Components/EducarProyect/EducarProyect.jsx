@@ -1,11 +1,34 @@
-import React from 'react'
+
 import './EducarProyect.css'
+import { useIdioma } from '../../Context/idiomaContext'
 
 const EducarProyect = () => {
+  const { idioma } = useIdioma()
+
+  const traducciones = {
+    'ingles': {
+      titulo: 'Collaborative Project',
+      nombreProyecto: 'Educar',
+      descripcion: 'I participated in the development of the login interface for an app that simplifies the search for information about educational institutions.',
+    },
+    'español': {
+      titulo: 'Proyecto colaborativo',
+      nombreProyecto: 'Educar',
+      descripcion: 'Participé en el desarrollo de la interfaz de login para una App que simplifica la búsqueda de información sobre instituciones educativas.',
+    },
+    'italiano': {
+      titulo: 'Progetto collaborativo',
+      nombreProyecto: 'Educar',
+      descripcion: 'Ho partecipato allo sviluppo dell\'interfaccia di accesso per un\'app che semplifica la ricerca di informazioni sulle istituzioni educative.',
+    }
+  };
+
+  const traduccionActual = traducciones[idioma] || traducciones['ingles'];
+
   return (
   <>
     <div className='proy_colaborativo'>
-      <h2>Proyecto colaborativo</h2>
+      <h2>{traduccionActual.titulo}</h2>
     </div>
     <article className='educar_container'>
         <a href='https://educ-ar-frontend.vercel.app/' target='_blank'>
@@ -14,10 +37,10 @@ const EducarProyect = () => {
         <div className='desc_educar'>
         <a href='https://educ-ar-frontend.vercel.app/' target='_blank'>
             <i className="fa-solid fa-arrow-up-right-from-square"></i>
-            <h2>Educar</h2>
+            <h2>{traduccionActual.nombreProyecto}</h2>
         </a>
         <div>
-          <p>Participé en el desarrollo de la interfaz de login para una App que simplifica la búsqueda de información sobre instituciones educativas en la provincia de Córdoba, 🇦🇷.</p>
+          <p>{traduccionActual.descripcion}</p>
         </div>
         <div className='divider'></div>
         <div className='tech_educar'>

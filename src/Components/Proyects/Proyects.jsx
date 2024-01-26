@@ -1,13 +1,23 @@
 import React from 'react'
-import { proyectos } from '../../../asyncmock'
+import { proyectos } from '../../../proymock'
+import { useIdioma } from '../../Context/idiomaContext'
 import './Proyects.css'
 
 
 const Proyects = () => {
+  const { idioma } = useIdioma()
+
+  const tituloTraducido = {
+    ingles: 'Projects',
+    español: 'Proyectos',
+    italiano: 'Progetti'
+  }
+
+
   return (
     <>
     <div className='proyectos_titulo'>
-      <h2 className='proy_titulo'>Proyectos</h2>
+      <h2 className='proy_titulo'>{tituloTraducido[idioma]}</h2>
     </div>
       <div className='contenedor_proyectos'>
         {
@@ -16,12 +26,12 @@ const Proyects = () => {
               <div>
                 <a href={proyecto.web} target='_blank'>
                 <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                <h2 className='title'>{proyecto.name}</h2>
+                <h2 className='title'>{proyecto.name[idioma]}</h2>
                 </a>
               </div>
 
               <div>
-                <a href={proyecto.web} target='_blank'><p className='desc'>{proyecto.desc}</p></a>
+                <a href={proyecto.web} target='_blank'><p className='desc'>{proyecto.desc[idioma]}</p></a>
               </div>
               
               <div className='divider'>

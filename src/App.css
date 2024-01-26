@@ -6,6 +6,35 @@ body {
   overflow: hidden;
 }
 
+.lenguajes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.lenguajes button {
+  width: 52px;
+  height: 36px;
+  border: 1px solid #64ffda;
+  border-radius: 18px;
+  background-color: #F7F7F7;
+  color: #020c1b;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.lenguajes button:hover {
+  background-color: #233554;
+  color: #F7F7F7;
+}
+
+.modo-light .lenguajes button{
+  border-color: orangered;
+}
+
+
 .btn {
   background-color: transparent;
   border: none;

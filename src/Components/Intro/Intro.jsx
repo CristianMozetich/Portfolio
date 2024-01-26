@@ -1,14 +1,31 @@
 import React from 'react'
 import './Intro.css'
+import { useIdioma } from '../../Context/idiomaContext'
 
 const Intro = () => {
-
+  const { idioma } = useIdioma()
 
 
   return (
     <div className='intro_desc'>
-        <h1 className='titulo'>Hola, me llamo Cristian &#x1F44B;</h1>
-        <p>Soy <mark>desarrollador frontend.</mark> Aquí puedes encontrar todos los enlaces relevantes y una selección de mis últimos proyectos.</p>
+      {idioma === 'ingles' && (
+        <>
+          <h1 className='titulo'>Hi, I'm Cristian &#x1F44B;</h1>
+          <p>I am a <mark>full stack developer.</mark> Here you can find all the relevant links and a selection of my latest projects.</p>
+        </>
+      )}
+      {idioma === 'español' && (
+        <>
+          <h1 className='titulo'>Hola, soy Cristian &#x1F44B;</h1>
+          <p>Soy <mark>desarrollador full stack.</mark> Aquí puedes encontrar todos los enlaces relevantes y una selección de mis últimos proyectos.</p>
+        </>
+      )}
+      {idioma === 'italiano' && (
+        <>
+          <h1 className='titulo'>Ciao, sono Cristian &#x1F44B;</h1>
+          <p>Sono <mark>sviluppatore full stack.</mark> Qui puoi trovare tutti i link rilevanti e una selezione dei miei ultimi progetti.</p>
+        </>
+      )}
         <li>
             <a href="https://github.com/CristianMozetich" target='_blank'><i className="fa-brands fa-github"></i>Git Hub</a>
             <a href="https://www.linkedin.com/in/cristian-mozetich-135086256/" target='_blank'><i className="fa-brands fa-linkedin-in"></i>LinkedIn</a>
