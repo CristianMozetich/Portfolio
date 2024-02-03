@@ -1,62 +1,62 @@
 .intro_desc {
-    width: 500px;
-    text-align: center;
-    margin: 40px;
-  }
-  
-  .intro_desc p {
-    line-height: 2;
-  }
-  
-  .titulo {
-    font-size: 3.00em;
-    margin-bottom: 20px;
-    letter-spacing: 0.125rem;
-    line-height: 1.125;
-    font-weight: 700;
-  }
-  
-  .intro_desc p {
-    font-size: 1rem;
-    letter-spacing: 0.125rem;
-    margin-bottom: 40px;
-    line-height: 1.875;
-    font-weight: 400;
-  }
-  
-  .intro_desc mark {
-    background-color: #D8D8D8;
-    padding: 2px 4px;
-    border-radius: 4px;
-  }
+  width: 500px;
+  text-align: center;
+  margin: 40px;
+}
 
-  .intro_desc li{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .intro_desc li a {
-    padding: 12px 24px;
-    margin: 10px;
-    background-color: #ffffff;
-    border: none;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-    color: #474747;
-  }
+.intro_desc p {
+  line-height: 2;
+}
 
-  .intro_desc li a i{
-    color: orangered;
-    margin: 5px;
-    font-size: 1rem;
-  }
-  
-  .intro_desc li a:hover {
-    background-color: #FFE7D9;
-  }
+.titulo {
+  font-size: 3.00em;
+  margin-bottom: 20px;
+  letter-spacing: 0.125rem;
+  line-height: 1.125;
+  font-weight: 700;
+}
+
+.intro_desc p {
+  font-size: 1rem;
+  letter-spacing: 0.125rem;
+  margin-bottom: 40px;
+  line-height: 1.875;
+  font-weight: 400;
+}
+
+.intro_desc mark {
+  background-color: #D8D8D8;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.intro_desc li {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.intro_desc li a {
+  padding: 12px 24px;
+  margin: 10px;
+  background-color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: #474747;
+}
+
+.intro_desc li a i {
+  color: orangered;
+  margin: 5px;
+  font-size: 1rem;
+}
+
+.intro_desc li a:hover {
+  background-color: #FFE7D9;
+}
