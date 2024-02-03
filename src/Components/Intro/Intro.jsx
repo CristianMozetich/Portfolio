@@ -30,9 +30,9 @@ const Intro = () => {
             <a href="https://github.com/CristianMozetich" target='_blank'><i className="fa-brands fa-github"></i>Git Hub</a>
             <a href="https://www.linkedin.com/in/cristian-mozetich-135086256/" target='_blank'><i className="fa-brands fa-linkedin-in"></i>LinkedIn</a>
             <a href="mailto:cristianmozetich@gmail.com?subject=Asunto%20del%20correo&body=Contenido%20del%20correo%20electr%C3%B3nico"><i className="fa-regular fa-envelope"></i>Email</a>
-            <a href="/public/assets/pdf/Cv_Mozetich_Cristian.pdf" target='_blank'><i className="fa-regular fa-file"></i>Resume Es</a>
-            <a href="/public/assets/pdf/Cv_Mozetich_Cristian_IT.pdf" target='_blank'><i className="fa-regular fa-file"></i>Resume It</a>
-            <a href="/public/assets/pdf/Cv_Mozetich_Cristian_EN.pdf" target='_blank'><i className="fa-regular fa-file"></i>Resume En</a>
+            <a href="/assets/pdf/Cv_Mozetich_Cristian.pdf" target='_blank'><i className="fa-regular fa-file"></i>Resume Es</a>
+            <a href="/assets/pdf/Cv_Mozetich_Cristian_IT.pdf" target='_blank'><i className="fa-regular fa-file"></i>Resume It</a>
+            <a href="/assets/pdf/Cv_Mozetich_Cristian_EN.pdf" target='_blank'><i className="fa-regular fa-file"></i>Resume En</a>
         </li>
     </div>
   )
