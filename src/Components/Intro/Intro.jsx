@@ -32,7 +32,7 @@ const Intro = () => {
             <a href="mailto:cristianmozetich@gmail.com?subject=Asunto%20del%20correo&body=Contenido%20del%20correo%20electr%C3%B3nico"><i className="fa-regular fa-envelope"></i>Email</a>
             <a href="/assets/pdf/Cv_Mozetich_Cristian.pdf" target='_blank'><i className="fa-regular fa-file"></i>Curriculum Es</a>
             <a href="/assets/pdf/Cv_Mozetich_Cristian_IT.pdf" target='_blank'><i className="fa-regular fa-file"></i>Curriculum It</a>
-            <a href="/assets/pdf/Cv_Mozetich_Cristian_EN.pdf" target='_blank'><i className="fa-regular fa-file"></i>Resume En</a>
+            <a href="/assets/pdf/Cv_Mozetich_Cristian_EN.pdf" target='_blank'><i className="fa-regular fa-file"></i>Curriculum En</a>
         </li>
     </div>
   )
