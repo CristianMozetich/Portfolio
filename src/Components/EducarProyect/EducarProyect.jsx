@@ -9,17 +9,17 @@ const EducarProyect = () => {
     'ingles': {
       titulo: 'Collaborative Project',
       nombreProyecto: 'Educar',
-      descripcion: 'I participated in the development of the login interface for an app that simplifies the search for information about educational institutions.',
+      descripcion: 'I participated in the development of the interface for an app that simplifies the search for information about educational institutions.',
     },
     'español': {
       titulo: 'Proyecto colaborativo',
       nombreProyecto: 'Educar',
-      descripcion: 'Participé en el desarrollo de la interfaz de login para una App que simplifica la búsqueda de información sobre instituciones educativas.',
+      descripcion: 'Participé en el desarrollo de la interfaz para una App que simplifica la búsqueda de información sobre instituciones educativas.',
     },
     'italiano': {
       titulo: 'Progetto collaborativo',
       nombreProyecto: 'Educar',
-      descripcion: 'Ho partecipato allo sviluppo dell\'interfaccia di accesso per un\'app che semplifica la ricerca di informazioni sulle istituzioni educative.',
+      descripcion: 'Ho partecipato allo sviluppo dell\'interfaccia per un\'applicazione che semplifica la ricerca di informazioni sulle istituzioni educative.',
     }
   };
 
