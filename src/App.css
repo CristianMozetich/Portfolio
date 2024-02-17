@@ -35,7 +35,12 @@ body {
   border-color: orangered;
 }
 
-
+.modo-light .educar_container a i:hover{
+  color: orangered;
+}
+.modo-light .desc_educar a:hover{
+  color: orangered;
+}
 
 .btn {
   background-color: transparent;
@@ -82,6 +87,9 @@ body {
 
 .modo-light a{
   color: #474747;
+}
+.modo-light a i:hover{
+  color: orangered;
 }
 
 .modo-navy a{
