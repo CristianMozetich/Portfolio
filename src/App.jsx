@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import IntroContainer from './Components/IntroContainer/IntroContainer';
 import Proyects from './Components/Proyects/Proyects';
-import EducarProyect from './Components/EducarProyect/EducarProyect';
+import CollaborativeProyects from './Components/CollaborativeProyects/CollaborativeProyects';
 import LinksMedia from './Components/LinksMedia/LinksMedia';
 import { useIdioma } from './Context/idiomaContext';
 import './App.css';
+
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
 
   return (
     <div className={`App ${modoLight ? 'modo-light' : 'modo-navy'}`}>
-      <button className='btn' onClick={handleClick}><i className="fa-solid fa-circle-half-stroke"></i>Navy/Light</button>
+      <button className='btn' onClick={handleClick}><i className="fa-solid fa-circle-half-stroke"></i>Navy / Light</button>
       <div className='lenguajes'>
         <button onClick={()=> cambiarIdioma('ingles')}>En</button>
         <button onClick={()=> cambiarIdioma('español')}>Es</button>
@@ -34,7 +35,7 @@ function App() {
       </div>
       <LinksMedia/>
       <IntroContainer />
-      <EducarProyect/>
+      <CollaborativeProyects/>
       <Proyects />
     </div>
   );

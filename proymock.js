@@ -1,6 +1,6 @@
 
   export const proyectos = [
-    {
+    /*{
       id: 1,
       name: {
         ingles: "BMI",
@@ -15,7 +15,7 @@
       web: "https://indice-m-corp.netlify.app/",
       year: "2023",
       tech: "Html - Css - React Js",
-    },
+    },*/
     {
       id: 2,
       name: {

@@ -1,0 +1,12 @@
+.collaborativeProyects{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.collaborativeProyects h1 {
+    text-align: left;
+    letter-spacing: 0.225rem;
+    margin: 10px;
+    text-decoration: underline;
+    font-size: 28px;
+}

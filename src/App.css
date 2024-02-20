@@ -52,6 +52,7 @@ body {
   color: #fff;
   margin: auto;
   padding: 20px;
+  letter-spacing: 0.115rem;
 }
 
 .btn:hover {
