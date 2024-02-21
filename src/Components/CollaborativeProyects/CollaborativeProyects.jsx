@@ -8,13 +8,13 @@ const CollaborativeProyects = () => {
 
   const traduccion = {
     ingles: {
-      titulo: "Collaborative Projects",
+      titulo: "Team Projects",
     },
     español: {
-      titulo: "Proyectos colaborativos",
+      titulo: "Proyectos en equipo",
     },
     italiano: {
-      titulo: "Progetti collaborativi",
+      titulo: "Progetti di squadra",
     },
   };
 
