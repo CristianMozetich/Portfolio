@@ -44,7 +44,7 @@ const EducarProyect = () => {
           </div>
           <div className="divider"></div>
           <div className="tech_educar">
-            <p className="tech_edu">NextJs - NextUI - Tailwind - Vercel</p>
+            <p className="tech_edu">Next.js - NextUI - Tailwind - Vercel</p>
             <a
               className="github_educar"
               href="https://github.com/No-Country/c15-40-t-java-react"

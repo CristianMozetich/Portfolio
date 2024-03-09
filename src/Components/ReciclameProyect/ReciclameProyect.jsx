@@ -44,7 +44,7 @@ const ReciclameProyect = () => {
           </div>
           <div className="divider"></div>
           <div className="tech_reciclame">
-            <p className="tech_reci">NextJs - Tailwind - Vercel</p>
+            <p className="tech_reci">Next.js - React.js - Tailwind - Vercel</p>
             <a
               className="github_reciclame"
               href="https://github.com/No-Country/s13-16-t-java-next"
