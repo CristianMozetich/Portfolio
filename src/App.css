@@ -28,17 +28,26 @@ body {
   color: #F7F7F7;
 }
 
-.modo-light .lenguajes button{
-  border-color: orangered;
-}
-.modo-light .LinksMedia button{
+.modo-light .lenguajes button {
   border-color: orangered;
 }
 
-.modo-light .educar_container a i:hover{
+.modo-light .LinksMedia button {
+  border-color: orangered;
+}
+
+.modo-light .educar_container a i:hover {
   color: orangered;
 }
-.modo-light .desc_educar a:hover{
+.modo-light .desc_educar a:hover {
+  color: orangered;
+}
+
+.modo-light .reciclame_container a i:hover {
+  color: orangered;
+}
+
+.modo-light .desc_reciclame a:hover {
   color: orangered;
 }
 
@@ -76,39 +85,41 @@ body {
 }
 
 
-.modo-navy{
+.modo-navy {
   background-color: #020c1b;
   color: #fff;
 }
 
-.modo-light{
+.modo-light {
   background-color: #F7F7F7;
   color: #474747;
 }
 
-.modo-light a{
+.modo-light a {
   color: #474747;
 }
-.modo-light a i:hover{
+
+.modo-light a i:hover {
   color: orangered;
 }
 
-.modo-navy a{
+.modo-navy a {
   color: #fff;
 }
 
-.modo-navy .tarjeta_proyectos a:hover{
+.modo-navy .tarjeta_proyectos a:hover {
   color: #64ffda;
 }
 
-.modo-light .tarjeta_proyectos{
+.modo-light .tarjeta_proyectos {
   background-color: white;
 }
 
-.modo-light .desc_educar{
+.modo-light .desc_educar {
   background-color: white;
 }
-.modo-light .desc_reciclame{
+
+.modo-light .desc_reciclame {
   background-color: white;
 }
 
@@ -120,20 +131,20 @@ body {
   color: orangered;
 }
 
-.modo-light .tarjeta_proyectos a:hover{
+.modo-light .tarjeta_proyectos a:hover {
   color: orangered;
 }
 
-.modo-light .LinksMedia .linea-vertical{
+.modo-light .LinksMedia .linea-vertical {
   background-color: orangered;
 }
 
-.modo-light .divider{
+.modo-light .divider {
   color: orangered;
 }
 
-@media (max-width: 1450px){
-  .lenguajes{
+@media (max-width: 1450px) {
+  .lenguajes {
     display: block;
     display: flex;
     justify-content: center;
