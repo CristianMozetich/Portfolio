@@ -2,6 +2,7 @@ import React from "react";
 import { useIdioma } from "../../Context/idiomaContext";
 import EducarProyect from "../EducarProyect/EducarProyect";
 import "./CollaborativeProyects.css";
+import ReciclameProyect from "../ReciclameProyect/ReciclameProyect";
 
 const CollaborativeProyects = () => {
   const { idioma } = useIdioma();
@@ -22,6 +23,7 @@ const CollaborativeProyects = () => {
   return (
     <div className="collaborativeProyects">
       <h1>{traduccionActual.titulo}</h1>
+      <ReciclameProyect />
       <EducarProyect />
     </div>
   );

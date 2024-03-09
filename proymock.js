@@ -32,7 +32,7 @@
       year: "2023",
       tech: "Html - Css - React Js - Vite - Firebase - Bootstrap",
     },
-    {
+    /*{
       id: 3,
       name: {
         ingles: "Tic Tac Toe",
@@ -47,7 +47,7 @@
       web: "https://ta-te-ti-91.netlify.app/",
       year: "2023",
       tech: "Html - Css - React Js - Vite",
-    },
+    },*/
     {
       id: 4,
       name: {
