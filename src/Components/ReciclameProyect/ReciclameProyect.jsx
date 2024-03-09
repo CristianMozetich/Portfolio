@@ -9,7 +9,7 @@ const ReciclameProyect = () => {
     ingles: {
       nombreProyecto: "Recíclame",
       descripcion:
-        "I participated in developing the interface for an application that simplifies the search for information about educational institutions.",
+        "I participated in the development of the interface of an application that aims to connect people with the intention of exchanging recyclable materials.",
     },
     español: {
       nombreProyecto: "Recíclame",
@@ -19,7 +19,7 @@ const ReciclameProyect = () => {
     italiano: {
       nombreProyecto: "Recíclame",
       descripcion:
-        "Ho partecipato allo sviluppo dell'interfaccia di un'applicazione che semplifica la ricerca di informazioni sulle istituzioni educative.",
+        "Ho partecipato allo sviluppo dell'interfaccia di un'applicazione che mira a connettere le persone con l'intenzione di scambiare materiali riciclabili.",
     },
   };
 
