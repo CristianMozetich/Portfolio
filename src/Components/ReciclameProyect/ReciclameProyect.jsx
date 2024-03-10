@@ -1,9 +1,9 @@
 import React from "react";
-import { useIdioma } from "../../Context/idiomaContext";
-import './ReciclameProyect.css'
+import { useContexto } from "../../Context/Context";
+import "./ReciclameProyect.css";
 
 const ReciclameProyect = () => {
-    const { idioma } = useIdioma();
+  const { idioma } = useContexto();
 
   const traducciones = {
     ingles: {
@@ -27,7 +27,10 @@ const ReciclameProyect = () => {
   return (
     <>
       <article className="reciclame_container">
-        <a href="https://s13-16-t-java-next-frontend.vercel.app/" target="_blank">
+        <a
+          href="https://s13-16-t-java-next-frontend.vercel.app/"
+          target="_blank"
+        >
           <img
             className="img_reciclame"
             src={"./assets/Img/reciclame.png"}
@@ -35,7 +38,10 @@ const ReciclameProyect = () => {
           />
         </a>
         <div className="desc_reciclame">
-          <a href="https://s13-16-t-java-next-frontend.vercel.app/" target="_blank">
+          <a
+            href="https://s13-16-t-java-next-frontend.vercel.app/"
+            target="_blank"
+          >
             <i className="fa-solid fa-arrow-up-right-from-square"></i>
             <h2>{traduccionActual.nombreProyecto}</h2>
           </a>

@@ -1,11 +1,11 @@
 import React from "react";
-import { useIdioma } from "../../Context/idiomaContext";
+import { useContexto } from "../../Context/Context";
 import EducarProyect from "../EducarProyect/EducarProyect";
 import "./CollaborativeProyects.css";
 import ReciclameProyect from "../ReciclameProyect/ReciclameProyect";
 
 const CollaborativeProyects = () => {
-  const { idioma } = useIdioma();
+  const { idioma } = useContexto();
 
   const traduccion = {
     ingles: {

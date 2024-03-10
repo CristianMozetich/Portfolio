@@ -60,3 +60,9 @@
 .intro_desc li a:hover {
   background-color: #FFE7D9;
 }
+
+@media (max-width: 1450px) {
+  .cv {
+    display: none;
+  }
+}

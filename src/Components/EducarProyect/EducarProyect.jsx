@@ -1,8 +1,8 @@
 import "./EducarProyect.css";
-import { useIdioma } from "../../Context/idiomaContext";
+import { useContexto } from "../../Context/Context";
 
 const EducarProyect = () => {
-  const { idioma } = useIdioma();
+  const { idioma } = useContexto();
 
   const traducciones = {
     ingles: {

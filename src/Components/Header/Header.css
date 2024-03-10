@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    background-color: #0a192f;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+.modo-light{
+    .header{
+        background-color: #fff;
+    }
+    .menu_hamburguesa{
+        background-color: #fff;
+    }
+}
+.modo-light{
+    .btn_submenu{
+        color: #474747;
+    }
+}
+
+
+.btn_light {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: auto;
+    padding: 20px;
+    letter-spacing: 0.115rem;
+}
+
+.btn_light:hover {
+    color: #64ffda;
+}
+
+.btn_light:focus {
+    outline: none;
+}
+
+.btn_light .fa-circle-half-stroke {
+    margin-right: 0.5rem;
+}
+
+.modo-light .btn_light {
+    color: #474747;
+}
+
+.modo-light .btn_light:hover {
+    color: orangered;
+}
+
+.btn_menu {
+    display: none;
+}
+
+.menu_hamburguesa {
+    width: 50%;
+    height: 100vh;
+    background-color: #0a192f;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    justify-content: start;
+    align-items: center;
+    top: 60px;
+    gap: 20px;
+
+}
+
+
+.btn_submenu {
+    width: 170px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 0.933rem;
+    letter-spacing: 0.172rem;
+    margin: 5px;
+    padding: 11px;
+    display: flex;
+    color: #fff;
+}
+
+.btn_submenu:hover {
+    border: blue 1px solid;
+}
+
+.btn_exit {
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    margin: 8px;
+    bottom: 10px;
+    display: none;
+}
+
+
+@media (max-width: 1400px) {
+    .btn_menu {
+        display: block;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 1.234rem;
+        align-items: center;
+        color: #fff;
+        padding: 20px;
+        letter-spacing: 0.115rem;
+    }
+}
