@@ -11,12 +11,14 @@ const Header = () => {
       <button className="btn_light" onClick={handleClickLight}>
         <i className="fa-solid fa-circle-half-stroke"></i>Navy / Light
       </button>
-      <button className="btn_menu" onClick={handleClickMenu}>
-        <i className="fa-solid fa-bars"></i>
-      </button>
-      <button className="btn_exit" onClick={handleClickMenu}>
-        <i class="fa-solid fa-xmark"></i>
-      </button>
+      {hamburguesa ?
+        <button className="btn_exit" onClick={handleClickMenu}>
+          <i class="fa-solid fa-xmark"></i>
+        </button> :
+        <button className="btn_menu" onClick={handleClickMenu}>
+          <i className="fa-solid fa-bars"></i>
+        </button>
+      }
       {hamburguesa ? (
         <div className="menu_hamburguesa">
           <div>

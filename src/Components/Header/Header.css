@@ -102,12 +102,15 @@
 }
 
 .btn_exit {
-    font-size: 24px;
+    background-color: transparent;
     border: none;
     cursor: pointer;
-    margin: 8px;
-    bottom: 10px;
-    display: none;
+    font-size: 1.234rem;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 0.115rem;
+    margin-left: auto;
 }
 
 
