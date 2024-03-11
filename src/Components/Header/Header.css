@@ -71,14 +71,15 @@
     flex-direction: column;
     z-index: 10;
     align-items: center;
+    justify-content: start;
     top: 50px;
     gap: 20px;
-
+    padding: 10px;
 }
 
 
 .btn_submenu {
-    width: 170px;
+    width: 160px;
     background-color: transparent;
     border: none;
     cursor: pointer;
