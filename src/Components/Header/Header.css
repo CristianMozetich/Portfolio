@@ -6,16 +6,19 @@
     z-index: 10;
     top: 0;
 }
-.modo-light{
-    .header{
+
+.modo-light {
+    .header {
         background-color: #fff;
     }
-    .menu_hamburguesa{
+
+    .menu_hamburguesa {
         background-color: #fff;
     }
 }
-.modo-light{
-    .btn_submenu{
+
+.modo-light {
+    .btn_submenu {
         color: #474747;
     }
 }
@@ -56,6 +59,7 @@
 
 .btn_menu {
     display: none;
+    margin-left: auto;
 }
 
 .menu_hamburguesa {
@@ -66,9 +70,8 @@
     display: flex;
     flex-direction: column;
     z-index: 10;
-    justify-content: start;
     align-items: center;
-    top: 60px;
+    top: 50px;
     gap: 20px;
 
 }
@@ -81,14 +84,19 @@
     cursor: pointer;
     font-size: 0.933rem;
     letter-spacing: 0.172rem;
-    margin: 5px;
+    margin: 8px;
     padding: 11px;
     display: flex;
     color: #fff;
 }
 
 .btn_submenu:hover {
-    border: blue 1px solid;
+    border: 1px solid #64ffda;
+    border-radius: 9px;
+}
+
+.modo-light .btn_submenu:hover {
+    border: 1px solid orangered;
 }
 
 .btn_exit {
@@ -101,7 +109,7 @@
 }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
     .btn_menu {
         display: block;
         background-color: transparent;

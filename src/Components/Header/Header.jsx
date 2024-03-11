@@ -21,30 +21,30 @@ const Header = () => {
         <div className="menu_hamburguesa">
           <div>
             <h4 className="submenu_titulo">Modo</h4>
-            <button className="btn_submenu" onClick={handleClickLight}>
+            <a className="btn_submenu" onClick={handleClickLight}>
               <i className="fa-solid fa-circle-half-stroke"></i>Navy / Light
-            </button>
+            </a>
           </div>
           <div className="idiomas">
             <h4 className="submenu_titulo">Lenguaje</h4>
-            <button
+            <a
               className="btn_submenu"
               onClick={() => cambiarIdioma("español")}
             >
               Español
-            </button>
-            <button
+            </a>
+            <a
               className="btn_submenu"
               onClick={() => cambiarIdioma("ingles")}
             >
               Inlges
-            </button>
-            <button
+            </a>
+            <a
               className="btn_submenu"
               onClick={() => cambiarIdioma("italiano")}
             >
               Italiano
-            </button>
+            </a>
           </div>
           <div className="curriculums">
             <h4 className="submenu_titulo">Curriculums</h4>
