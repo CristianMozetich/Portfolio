@@ -112,6 +112,9 @@
     letter-spacing: 0.115rem;
     margin-left: auto;
 }
+.modo-light .btn_exit {
+    color: #474747;
+}
 
 
 @media (max-width: 1450px) {
