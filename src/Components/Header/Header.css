@@ -89,6 +89,7 @@
     padding: 11px;
     display: flex;
     color: #fff;
+    gap: 5px;
 }
 
 .btn_submenu:hover {
