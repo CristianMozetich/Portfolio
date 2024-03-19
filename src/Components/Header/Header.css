@@ -77,6 +77,17 @@
     padding: 10px;
 }
 
+.backdrop {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    transition: 1s ease;
+}
+
 
 .btn_submenu {
     width: 160px;
@@ -112,6 +123,7 @@
     letter-spacing: 0.115rem;
     margin-left: auto;
 }
+
 .modo-light .btn_exit {
     color: #474747;
 }
